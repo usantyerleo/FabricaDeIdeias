@@ -1,114 +1,311 @@
+@font-face {
+  font-family: 'Poi Aeronaut';
+  src: url('./fonts/poi-aeronaut-trial-regular.woff2') format('woff2'),
+       url('./fonts/poi-aeronaut-trial-regular.woff') format('woff'),
+       url('./fonts/poi-aeronaut-trial-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Previne a barra de rolagem horizontal */
+}
 
-/* Seção do Header */
+.inicio {
+  background-color: #2C728F;
+  width: 100vw;
+  height: 740px;
+}
 
+.sobremim {
+  background-color: #844863;
+  width: 100vw;
+  height: 740px;
+}
 
+.meuscertificados {
+  background-color: #C35D3A;
+  padding: 40px 0;
+  width: 100vw;
+}
 
+.feedbacks {
+  background-color: #637136;
+  min-height: 75vh;
+  width: 100vw;
+  position: relative;
+}
 
+.feedbacks h1 {
+  font-family: 'Poi Aeronaut', sans-serif;
+  font-weight: 400;
+  color: #1E2605;
+  margin-left: 144px;
+  font-size: 40px;
+  padding-top: 71px;
+}
 
+#specificImage {
+  height: 205px;
+  position: absolute; 
+  top: 342px; 
+}
+
+#boneco1 {
+ width: 204.2px; 
+ height: 79.4px;
+ position: absolute; 
+ top: 467.8px;
+ margin-left: 75px;
+}
+
+#boneco2 {
+  width: 274.8px; 
+  height: 173.72px;
+  margin-top: 165px;
+  margin-left: 20px;
+}
+
+.balao {
+  background-color: #D1CEA9; 
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  width: 368px;
+  height: 135px;
+  margin: 20px; 
+  font-size: 20px;
+  font-family: 'Poi Aeronaut', sans-serif;
+  color: #706F5D;
+}
+
+#balao1 {
+  margin-left: 275px; 
+  margin-top: -300px;
+}
+
+#balao2 {
+  margin-left: 732px; 
+  margin-top: -195px;
+}
+
+#balao3 {
+  margin-left: 490px; 
+  margin-top: 90px;
+}
+
+#balao4 {
+  margin-left: 969px; 
+  margin-top: -195px;
+}
+
+.colabore {
+  background-color: #D1CEA9;
+  width: 100vw;
+  height: 178px;
+}
+
+.colabore h1 {
+  font-family: 'Poi Aeronaut', sans-serif;
+  font-weight: 400;
+  color: #C35D3A;
+  margin-left: 144px;
+  font-size: 40px;
+  padding-top: 65px;
+}
+
+.colabore button {
+  font-family: 'Poi Aeronaut', sans-serif;
+  font-weight: 300;
+  background-color: #C35D3A;
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 1200px;
+  position: relative;
+  top: -60px; 
+}
+
+.colabore h2 {
+  font-weight: 400;
+  color: #444444;
+  margin-left: 144px;
+  font-size: 19px;
+}
+
+.meuscertificados h1 {
+  font-family: 'Poi Aeronaut', sans-serif;
+  font-weight: 400;
+  color: #5A1903;
+  margin-left: 144px;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.imagens-certificados {
+  display: flex;
+  gap: 60px; 
+  width: 100vw;
+  margin-top: 40px;
+  animation: slide 15s linear infinite; /* Animação contínua de 15 segundos */
+}
+
+.meuscertificados img {
+  width: 144.45px;
+  height: 80.07px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Animação contínua */
+@keyframes slide {
+  0% {
+    transform: translateX(0); 
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
 
 /* Seção do Footer */
 footer {
-  width: 100%;
-  height: 35vh;
-  background-color: #22627F;
-  position: absolute;
-  bottom: 0;
-
+width: 100%;
+background-color: #22627F;
+bottom: 0;
 }
 
 .footerSection {
-  display: flex;
-  justify-content: space-between;
+display: flex;
+justify-content: space-between;
+padding: 20px;
 }
 
+#img1, #img2, #img3 {
+width: 24px;
+margin-top: 10px;
+margin-left: 10px;
+}
 .info {
-  width: 20vw;
-  position: absolute;
-  bottom: 6vh;
-  left: 10vw;
+width: 30%;
+}
 
-  #title {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    margin-bottom: 3.5vh;
-    color: #A7CDDF;
-  }
+#title {
+font-family: 'Poi Aeronaut', sans-serif;
+font-size: 30px;
+color: #A7CDDF;
+margin-left: 72px;
+margin-top: 50px;
+font-weight: 400;
 
-  .callUsButton {
-    width: 20vw;
-    height: 4vh;
-    border-radius: 10px;
-    background-color: #C35D3A;
-    color: white;
-    border-style: none;
-    margin-bottom: 1vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+}
 
-  #subtitle {
-    margin-top: 10px;
-    font-size: 13px;
-    margin-top: 1vh;
-    color: #A0C8DA;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+.callUsButton {
+width: 100%;
+max-width: 300px;
+border-radius: 10px;
+background-color: #C35D3A;
+color: white;
+font-family: 'Poi Aeronaut', sans-serif;
+margin: 10px 0;
+margin-left: 72px;
+margin-top: 10px;
+
+}
+
+.socialIcons{
+margin-left: 70px;
+}
+
+#subtitle {
+font-size: 13px;
+color: #A0C8DA;
+font-family: 'Poi Aeronaut', sans-serif;
+margin-left: 72px;
+font-weight: 400;
 
 }
 
 .toys {
-  display: flex;
-  position: absolute;
-  bottom: 0;
-
-
-  #toy1 {
-    width: 8vw;
-    height: 17vh;
-    position: absolute;
-    bottom: 0;
-    left: 41vw;
-  }
-
-  #toy2 {
-    width: 9vw;
-    height: 19vh;
-    position: absolute;
-    bottom: 0;
-    left: 48vw;
-  }
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-.findUs {
-  position: absolute;
-  top: 9vh;
-  left: 76vw;
-  
+#toy1{
+width: 143.78px; 
+height: 158.89px;
+margin-top: 100px;
+margin-left: 40%;
+}
 
-  h3{
-    font-size: 1.5rem;
-    color: #A7CDDF;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 2vh;
-  }
+#toy2 {
+width: 189.55px; 
+height: 170px;
+margin-top: 90px;
+}
 
-  #img1{
-    width: 60px;
-    height: auto;
-  }
-  
-  #img2{
-    width: 57px;
-    height: auto;
-  }
+.footer-section {
+width: 30%; 
+text-align: center; 
+}
 
-  #img3{
-    width: 60px;
-    height: auto;
-  }
+.footer-section h2, .section h2 {
+font-size: 24px;
+color: #A7CDDF;
+font-family: 'Poi Aeronaut', sans-serif;
+margin-bottom: 10px;
+font-weight: 400;
+margin-top: 50px;
+}
+
+.footer-section p, .section p {
+color: #A7CDDF;
+margin: 5px 0;
 
 }
+
+
+.footer-section ul {
+font-weight: 400;
+list-style: none;
+padding: 0;
+
+}
+
+.footer-section li {
+margin: 5px 0;
+
+}
+.findUs h3{
+font-weight: 400;
+font-family: 'Poi Aeronaut', sans-serif;
+color: hsl(199, 47%, 76%);
+margin-top: 50px;
+font-size: 24px;
+margin-left: 80px;
+}
+
+/* Media Queries para telas menores */
+@media (max-width: 768px) {
+.footerSection {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-section {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.toys {
+    margin: 20px 0;
+}
+}
+
