@@ -1,15 +1,20 @@
 import './App.css'
 import Footer from './components/Footer'
-import Home from './pages/Home'
+import HomeTop from './pages/HomeTop'
+import HomeBottom from './pages/HomeBottom'
 
 function App() {
 
 
   return (
     <>
-      <Home/>
-      
-      <Footer/>
+
+      <HomeTop />
+
+      <HomeBottom />
+
+
+      <Footer />
     </>
   )
 }
