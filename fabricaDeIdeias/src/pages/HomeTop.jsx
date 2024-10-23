@@ -14,7 +14,7 @@ import bolaMaior from '../assets/bolaMaior.png';
 import bolaMenor from '../assets/bolaMenor.png';
 import carangueijo from '../assets/carangueijo.png';
 import soldadinho from '../assets/soldadinho.png';
-import textura1 from '../assets/textura1.png';
+import textura1 from '../assets/image.png';
 import './HomeTop.css'
 
 
@@ -49,7 +49,7 @@ const HomeTop = () => {
                     <img src={bolaMenor} alt="bolaMenor" className="bolaMenor" />
                     <img src={carangueijo} alt="carangueijo" className="carangueijo" />
                     <img src={soldadinho} alt="soldadinho" className="soldadinho" />
-                    {/* <img src={textura1} alt="textura1" className="textura" /> */}
+                    { <img src={textura1} alt="textura1" className="textura" /> }
                 </div>
                 <div className="descricao">Sustentabilidade, desenvolvimento cognitivo infantil e<p></p>valorização da cultura local</div>
             </main>

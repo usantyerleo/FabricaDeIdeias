@@ -1,5 +1,12 @@
 /* CSS config */
-
+@font-face {
+  font-family: 'Poi Aeronaut';
+  src: url('./fonts/poi-aeronaut-trial-regular.woff2') format('woff2'),
+       url('./fonts/poi-aeronaut-trial-regular.woff') format('woff'),
+       url('./fonts/poi-aeronaut-trial-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +25,7 @@ html {
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  background-color: #2C728F;
+  background-color: #226682;
   overflow: hidden;
 }
 
@@ -85,7 +92,7 @@ html {
   position: relative;
   top: 72vh;
   left: -2vw;
-  font-family: 'POI Aeronaut Trial', sans-serif;
+  font-family: 'Poi Aeronaut', sans-serif;
   color: #D8CDB9;
   text-align: center;
   z-index: 1;
