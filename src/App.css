@@ -1,0 +1,135 @@
+/* Seção do Footer */
+footer {
+width: 100%;
+background-color: #22627F;
+bottom: 0;
+}
+
+.footerSection {
+display: flex;
+justify-content: space-between;
+padding: 20px;
+}
+
+#img1, #img2, #img3 {
+width: 24px;
+margin-top: 10px;
+margin-left: 10px;
+}
+.info {
+width: 30%;
+}
+
+#title {
+font-family: 'Poi Aeronaut', sans-serif;
+font-size: 30px;
+color: #A7CDDF;
+margin-left: 72px;
+margin-top: 50px;
+font-weight: 400;
+
+}
+
+.callUsButton {
+width: 100%;
+max-width: 300px;
+border-radius: 10px;
+background-color: #C35D3A;
+color: white;
+font-family: 'Poi Aeronaut', sans-serif;
+margin: 10px 0;
+margin-left: 72px;
+margin-top: 10px;
+
+}
+
+.socialIcons{
+margin-left: 70px;
+}
+
+#subtitle {
+font-size: 13px;
+color: #A0C8DA;
+font-family: 'Poi Aeronaut', sans-serif;
+margin-left: 72px;
+font-weight: 400;
+
+}
+
+.toys {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#toy1{
+width: 143.78px; 
+height: 158.89px;
+margin-top: 100px;
+margin-left: 40%;
+}
+
+#toy2 {
+width: 189.55px; 
+height: 170px;
+margin-top: 90px;
+}
+
+.footer-section {
+width: 30%; 
+text-align: center; 
+}
+
+.footer-section h2, .section h2 {
+font-size: 24px;
+color: #A7CDDF;
+font-family: 'Poi Aeronaut', sans-serif;
+margin-bottom: 10px;
+font-weight: 400;
+margin-top: 50px;
+}
+
+.footer-section p, .section p {
+color: #A7CDDF;
+margin: 5px 0;
+
+}
+
+
+.footer-section ul {
+font-weight: 400;
+list-style: none;
+padding: 0;
+
+}
+
+.footer-section li {
+margin: 5px 0;
+
+}
+.findUs h3{
+font-weight: 400;
+font-family: 'Poi Aeronaut', sans-serif;
+color: hsl(199, 47%, 76%);
+margin-top: 50px;
+font-size: 24px;
+margin-left: 80px;
+}
+
+/* Media Queries para telas menores */
+@media (max-width: 768px) {
+.footerSection {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-section {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.toys {
+    margin: 20px 0;
+}
+}
+
