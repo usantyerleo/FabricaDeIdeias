@@ -67,6 +67,7 @@ footer {
     height: 158.89px;
     margin-top: 100px;
     margin-left: 40%;
+    
     }
     
     #toy2 {
@@ -115,6 +116,8 @@ footer {
     font-size: 24px;
     margin-left: 80px;
     }
+
+ 
     
     /* Media Queries para telas menores */
     @media (max-width: 768px) {
