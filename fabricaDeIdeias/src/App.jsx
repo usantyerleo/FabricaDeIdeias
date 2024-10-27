@@ -1,22 +1,18 @@
-import './App.css'
-import Footer from './components/Footer'
-import HomeTop from './pages/HomeTop'
-import HomeBottom from './pages/HomeBottom'
+import '../src/styles/Footer.css'
+import Home from './pages/HomeBottom.jsx';
+import Sobremim from './pages/sobremim.jsx';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-function App() {
+  function App() {
+    return (
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Sobremim" element={<Sobremim />} />
 
-
-  return (
-    <>
-
-      <HomeTop />
-
-      <HomeBottom />
-
-
-      <Footer />
-    </>
-  )
-}
+        </Routes>
+      </Router>
+    );
+  }
 
 export default App
