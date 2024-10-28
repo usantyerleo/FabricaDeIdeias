@@ -4,7 +4,7 @@
 function Sobremim() {
   return (
     <>
-    <p>oi</p>
+    <p>Sobre Mim</p>
     </>
   );
 }

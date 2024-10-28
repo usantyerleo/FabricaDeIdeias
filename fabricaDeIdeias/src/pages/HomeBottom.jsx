@@ -39,8 +39,8 @@ function Home() {
             <ul>
             <li><Link to="/" className="active">Início</Link></li>
             <li><Link to="/Sobremim">Sobre mim</Link></li>
-            <li><Link to="/">Colabore</Link></li>
-            <li><Link to="/">Catálogo</Link></li>
+            <li><Link to="/Colabore">Colabore</Link></li>
+            <li><Link to="/Catalogo">Catálogo</Link></li>
             </ul>
           </nav>
         </header>
