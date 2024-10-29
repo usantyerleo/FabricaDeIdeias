@@ -178,65 +178,25 @@ body, html {
       top: 350px;
       max-width: 780px;
   }
-}
-
-@media (max-width: 480px) {
-  #specificImage {
-      top: 350px;
-      max-width: 400px;
+  #boneco1 {
+    width: 35vw;
+    height: auto;
+    top: 468px;
+    margin-left: 50px;
   }
-}
-
-@media (max-width: 768px) {
-#boneco1 {
-  width: 35vw;
-  height: auto;
-  top: 468px;
-  margin-left: 50px;
-}
-
-#boneco2 {
-  width: 40vw;
-  height: auto;
-  margin-top: 195px;
-  margin-left: 33px;
-}
-}
-
-@media (max-width: 480px) {
-#boneco1 {
-    top: 445px;
-    margin-left: 30px;
-}
-
-#boneco2 {
-  width: 45vw;
-  height: auto;
-  margin-top: 212px;
-  margin-left: 15px;
-}
-}
-
-@media (max-width: 768px) {
-#balao1, #balao3 {
-  margin-left:270px;
-  width: 50vw;
-  height: auto;
-}
-}
-
-@media (max-width: 480px) {
-#balao1 {
-  margin-left:3px;
+  
+  #boneco2 {
+    width: 40vw;
+    height: auto;
+    margin-top: 195px;
+    margin-left: 33px;
   }
-#balao3 {
-    margin-left:190px;
-    margin-top: -90px;
-    }
-}
-
-@media (max-width: 768px) {
-.colabore h1 {
+  #balao1, #balao3 {
+    margin-left:270px;
+    width: 50vw;
+    height: auto;
+  }
+  .colabore h1 {
     font-size: 2rem;
     padding-top: 30px;
     margin-left: 40px;
@@ -251,38 +211,53 @@ body, html {
     font-size: 0.9rem;
     margin-left: 400px;
 }
+.meuscertificados h1 {
+  margin-left: 5%;
+  font-size: 2rem;
+}
+
+.imagens-certificados {
+  gap: 2rem;
+}
+
+.meuscertificados img {
+  width: 7rem;
+}
 }
 
 @media (max-width: 480px) {
-.colabore h1 {
-    font-size: 1.5rem;
-    padding-top: 5px;
-}
-
-.colabore button {
-    max-width: 100px;
-    font-size: 0.8rem;
-    margin-left: 260px;
-}
-}
-/* Ajuste para telas menores */
-@media (max-width: 768px) {
-  .meuscertificados h1 {
-    margin-left: 5%;
-    font-size: 2rem;
+  #specificImage {
+      top: 350px;
+      max-width: 400px;
   }
-
-  .imagens-certificados {
-    gap: 2rem;
-  }
-
-  .meuscertificados img {
-    width: 7rem;
-  }
+  #boneco1 {
+    top: 445px;
+    margin-left: 30px;
 }
 
-/* Ajuste para telas muito pequenas */
-@media (max-width: 480px) {
+#boneco2 {
+  width: 45vw;
+  height: auto;
+  margin-top: 212px;
+  margin-left: 15px;
+}
+#balao1 {
+  margin-left:3px;
+  }
+#balao3 {
+    margin-left:190px;
+    margin-top: -90px;
+    }
+    .colabore h1 {
+      font-size: 1.5rem;
+      padding-top: 5px;
+  }
+  
+  .colabore button {
+      max-width: 100px;
+      font-size: 0.8rem;
+      margin-left: 260px;
+  }
   .meuscertificados h1 {
     font-size: 1.8rem;
     margin-left: 5%;
@@ -295,4 +270,76 @@ body, html {
   .meuscertificados img {
     width: 5.5rem;
   }
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+}
+
+/* Telas médias (tablets e laptops pequenos) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  #specificImage {
+    top: 563px;
+    max-width: 780px;
+}
+#boneco1 {
+  width: 26vw;
+  height: auto;
+  top: 690px;
+  margin-left: 55px;
+}
+
+#boneco2 {
+  width: 30vw;
+  height: auto;
+  margin-top: 420px;
+  margin-left: 40px;
+}
+#balao1 {
+  margin-left:80px;
+  width: 50vw;
+  position: relative; /* ou absolute/fixed, conforme o caso */
+  top: -200px; /* valor negativo para subir o elemento */
+}
+#balao2 {
+  margin-left:350px;
+  width: 50vw;
+  position: relative; /* ou absolute/fixed, conforme o caso */
+  top: -18px;
+}
+#balao3 {
+  margin-left:80px;
+  width: 50vw;
+  position: relative; /* ou absolute/fixed, conforme o caso */
+  top: -100px; /* valor negativo para subir o elemento */
+}
+#balao4 {
+  margin-left:350px;
+  width: 48vw;
+  position: relative; /* ou absolute/fixed, conforme o caso */
+  top:80px;
+}
+.feedbacks h1{
+  margin-left: 40px;
+  font-size: 30px;
+
+}
+
+
+
+.colabore button {
+  max-width: 150px;
+  margin-top: 10px;
+  margin-left: 600px;
+}
+
+}
+
+/* Telas grandes (laptops de 15 polegadas ou mais) */
+@media (min-width: 1024px) {
+ 
 }
