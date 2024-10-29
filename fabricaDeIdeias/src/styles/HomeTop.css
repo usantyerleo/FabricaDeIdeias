@@ -145,7 +145,7 @@ html {
 /* Jacare */
 .nuvem2 {
   position: absolute;
-  left: 0vh;
+  left: -10vh;
   bottom: -49vw;
   width: 50%;
   z-index: 2;
@@ -184,12 +184,14 @@ html {
   position: absolute;
   top: 26vh;
   right: -6vw;
+  z-index: 2;
 }
 
 .bolaMenor {
   position: absolute;
   top: 31vh;
   right: -3vw;
+  z-index: 2;
 }
 
 /* elementos do título */
