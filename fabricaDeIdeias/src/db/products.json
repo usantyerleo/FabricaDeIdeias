@@ -1,0 +1,40 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Boneco Divertidamente Tristeza",
+        "preco": 85.00,
+        "categoria": "Bonecos",
+        "disponibilidade": true
+      },
+      {
+        "id": 2,
+        "nome": "Boneco Divertidamente Alegria",
+        "preco": 85.00,
+        "categoria": "Bonecos",
+        "disponibilidade": true
+      },
+      {
+        "id": 3,
+        "nome": "Boneco Divertidamente Nojinho",
+        "preco": 85.00,
+        "categoria": "Bonecos",
+        "disponibilidade": true
+      },
+      {
+        "id": 4,
+        "nome": "Boneco Divertidamente Raiva",
+        "preco": 85.00,
+        "categoria": "Bonecos",
+        "disponibilidade": true
+      },
+      {
+        "id": 5,
+        "nome": "Boneco Divertidamente Medo",
+        "preco": 85.00,
+        "categoria": "Bonecos",
+        "disponibilidade": true
+      }
+    ]
+  }
+  
