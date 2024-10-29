@@ -1,6 +1,6 @@
 
 
-function Sobremim() {
+function Colabore() {
     return (
       <>
       <p>Colabore</p>
@@ -8,5 +8,5 @@ function Sobremim() {
     );
   }
   
-  export default Sobremim;
+  export default Colabore;
   

@@ -1,12 +1,13 @@
-
-
-function Sobremim() {
+function Catalogo() {
     return (
       <>
+      
       <p>Catalogo</p>
+
+      <Footer/>
       </>
     );
   }
   
-  export default Sobremim;
+  export default Catalogo;
   
