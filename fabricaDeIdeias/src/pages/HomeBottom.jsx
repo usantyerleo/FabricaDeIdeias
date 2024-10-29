@@ -25,7 +25,7 @@ import bolaMaior from '../assets/bolaMaior.png';
 import bolaMenor from '../assets/bolaMenor.png';
 import carangueijo from '../assets/carangueijo.png';
 import soldadinho from '../assets/soldadinho.png';
-import textura1 from '../assets/image.png';
+import texturaOficial from '../assets/texturaOficial.png';
 import '../styles/HomeBottom.css';
 import '../styles/HomeTop.css';
 import { Link } from 'react-router-dom';
@@ -62,7 +62,7 @@ function Home() {
             <img src={bolaMenor} alt="Bola Menor" className="bolaMenor" />
             <img src={carangueijo} alt="Caranguejo" className="carangueijo" />
             <img src={soldadinho} alt="Soldadinho" className="soldadinho" />
-            <img src={textura1} alt="Textura 1" className="textura" />
+            <img src={texturaOficial} alt="texturaOficial" className="texturaOficial"/>
           </div>
           <div className="descricao">
             Sustentabilidade, desenvolvimento cognitivo infantil e valorização da cultura local
