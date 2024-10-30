@@ -30,6 +30,7 @@ import '../styles/HomeBottom.css';
 import '../styles/HomeTop.css';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer'
+
 function Home() {
   return (
     <>
