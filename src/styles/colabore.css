@@ -1,0 +1,46 @@
+
+.colabore-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+
+.title {
+    width: 500%; 
+    font-size: 24px;
+}
+
+.discription {
+  width: 500%; 
+  font-size: 24px;
+}
+
+.banner {
+    background-color: #f5eedc; 
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  span {
+    color: #4d4d4d; 
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+
+
+
+
+
+
+
+
+
