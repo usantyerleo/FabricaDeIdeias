@@ -1,0 +1,165 @@
+/* Seção do Footer */
+footer {
+    width: 100%;
+    background-color: #22627F;
+    bottom: 0;
+    }
+    
+    .footerSection {
+    display: flex;
+    margin-left: -10vh; /* alterei essa linha no codigo (antes n tinha nada)- cml */
+    justify-content: space-around; /* alterei essa linha no codigo (era between)- cml */
+    flex-wrap: wrap; /* alterei essa linha no codigo (antes n tinha nada)- cml */
+    padding: 10px, 20px; /* alterei essa linha no codigo (antes era 20px)- cml */
+    text-align: center; /* alterei essa linha no codigo (antes n tinha nada)- cml */
+    
+    }
+    
+    #img1, #img2, #img3 {
+    width: 24px;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+    .info {
+    width: 20%; /* alterei essa linha no codigo (antes era 30%)- cml */
+    }
+    
+    #title {
+    font-family: 'Poi Aeronaut', sans-serif;
+    font-size: 30px;
+    color: #A7CDDF;
+    margin-left: 72px;
+    margin-top: 50px;
+    font-weight: 400;
+    
+    }
+    
+    .callUsButton {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    background-color: #C35D3A;
+    color: white;
+    font-family: 'Poi Aeronaut', sans-serif;
+    margin: 10px 0;
+    margin-left: 72px;
+    margin-top: 20px; /* alterei essa linha no codigo (antes era 10px)- cml */
+    
+    }
+    
+    .socialIcons{
+    margin-left: 70px;
+    }
+    
+    #subtitle {
+    font-size: 13px;
+    color: #A0C8DA;
+    font-family: 'Poi Aeronaut', sans-serif;
+    margin-left: 72px;
+    font-weight: 400;
+    
+    }
+    
+    .toys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px; /* adc essa linha no codigo - cml */
+    margin-left: -10vh; /* adc essa linha no codigo - cml */
+    }
+    
+    #toy1{
+    width: 143.78px; 
+    height: 158.89px;
+    margin-top: 115px; /* alterei essa linha no codigo (antes era 100px) - cml */
+    margin-left: 40%;
+    
+    }
+    
+    #toy2 {
+    width: 189.55px; 
+    height: 170px;
+    margin-top: 100px; /* alterei essa linha no codigo (antes era 80px) - cml */
+    }
+    
+    .footer-section {
+    width: 30%; 
+    text-align: center; 
+    }
+    
+    .footer-section h2 {
+    font-size: 24px;
+    color: #A7CDDF;
+    font-family: 'Poi Aeronaut', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+    margin-top: 50px;
+    }
+    
+    .footer-section p {
+    color: #ffffff; /* alterei a cor pra branco (antes era A7CDDF)  - cml */
+    margin: 5px 0;
+    font-family: 'Poi Aeronaut', sans-serif;
+    
+    }
+    
+    
+    .footer-section ul {
+    font-weight: 400;
+    list-style: none;
+    padding: 0;
+    
+    }
+    
+    .footer-section li {
+    margin: 5px 0;
+    
+    }
+    .findUs h2{
+    font-weight: 400; /* alterei de cima no codigo (antes era h3)- cml */
+    font-family: 'Poi Aeronaut', sans-serif;
+    color: hsl(199, 47%, 76%);
+    margin-top: 50px;
+    font-size: 24px;
+    margin-left: 80px;
+    }
+
+    /* adc - cml */ 
+    .footer-section-apoio h2 {
+        font-size: 24px;
+        color: #A7CDDF;
+        font-family: 'Poi Aeronaut', sans-serif;
+        margin-bottom: 10px;
+        font-weight: 400;
+        margin-top: 50px;
+    }
+ 
+        /* adc - cml */ 
+    .footer-section-apoio p {
+        color: #ffffff; /* alterei a cor pra branco (antes era A7CDDF)  - cml */
+        margin: 5px 0;
+        font-family: 'Poi Aeronaut', sans-serif;
+    }
+  
+    
+    /* Media Queries para telas menores */
+    @media (max-width: 768px) {
+    .footerSection {
+        flex-direction: column;
+        align-items: center;
+    }
+    #title, #subtitle{
+        margin-left: 10px;
+    }
+       .callUsButton{
+        margin-left: 10px;
+
+       }
+    .footer-section {
+        width: 100%;
+    }
+    
+    .toys {
+        margin-right: 100px;
+    }
+}

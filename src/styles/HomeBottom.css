@@ -1,0 +1,345 @@
+@font-face {
+  font-family: 'Poi Aeronaut';
+  src: url('./fonts/poi-aeronaut-trial-regular.woff2') format('woff2'),
+       url('./fonts/poi-aeronaut-trial-regular.woff') format('woff'),
+       url('./fonts/poi-aeronaut-trial-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.inicio {
+  background-color: #2C728F;
+  width: 100vw;
+  height: 740px;
+}
+
+.sobremim {
+  background-color: #844863;
+  width: 100vw;
+  height: 740px;
+}
+
+.meuscertificados {
+  background-color: #C35D3A;
+  padding: 40px 0;
+  width: 100vw;
+}
+
+.meuscertificados h1 {
+  font-family: 'Poi Aeronaut', sans-serif;
+  font-weight: 400;
+  color: #5A1903;
+  margin-left: 144px;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.imagens-certificados {
+  display: flex;
+  gap: 60px;
+  width: 100vw;
+  margin-top: 40px;
+  animation: slide 15s linear infinite;
+}
+.meuscertificados img {
+  width: 144.45px;
+  height: 80.07px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.feedbacks {
+  background-color: #637136;
+  min-height: 75vh;
+  width: 100vw;
+  position: relative;
+}
+
+.feedbacks h1 {
+  font-family: 'Poi Aeronaut', sans-serif;
+  font-weight: 400;
+  color: #1E2605;
+  margin-left: 144px;
+  font-size: 40px;
+  padding-top: 71px;
+}
+
+#specificImage {
+  height: 205px;
+  position: absolute;
+  top: 342px;
+}
+
+#boneco1 {
+ width: 204.2px;
+ height: 79.4px;
+ position: absolute;
+ top: 467.8px;
+ margin-left: 75px;
+}
+
+#boneco2 {
+  width: 274.8px;
+  height: 173.72px;
+  margin-top: 165px;
+  margin-left: 20px;
+}
+
+.balao {
+  background-color: #D1CEA9;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 368px;
+  height: 135px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: 'Poi Aeronaut', sans-serif;
+  color: #706F5D;
+}
+
+#balao1 {
+  margin-left: 275px;
+  margin-top: -300px;
+}
+
+#balao2 {
+  margin-left: 732px;
+  margin-top: -195px;
+}
+
+#balao3 {
+  margin-left: 490px;
+  margin-top: 90px;
+}
+
+#balao4 {
+  margin-left: 969px;
+  margin-top: -195px;
+}
+
+.colabore {
+  background-color: #D1CEA9;
+  width: 100vw;
+  height: 178px;
+}
+
+.colabore h1 {
+  font-family: 'Poi Aeronaut', sans-serif;
+  font-weight: 400;
+  color: #C35D3A;
+  margin-left: 144px;
+  font-size: 40px;
+  padding-top: 65px;
+}
+
+.colabore button {
+  font-family: 'Poi Aeronaut', sans-serif;
+  font-weight: 300;
+  background-color: #C35D3A;
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 1200px;
+  position: relative;
+  top: -60px;
+}
+
+.colabore h2 {
+  font-weight: 400;
+  color: #444444;
+  margin-left: 144px;
+  font-size: 19px;
+}
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 768px) {
+  #specificImage {
+      top: 350px;
+      max-width: 780px;
+  }
+  #boneco1 {
+    width: 35vw;
+    height: auto;
+    top: 468px;
+    margin-left: 50px;
+  }
+  
+  #boneco2 {
+    width: 40vw;
+    height: auto;
+    margin-top: 195px;
+    margin-left: 33px;
+  }
+  #balao1, #balao3 {
+    margin-left:270px;
+    width: 50vw;
+    height: auto;
+  }
+  .colabore h1 {
+    font-size: 2rem;
+    padding-top: 30px;
+    margin-left: 40px;
+}
+.colabore h2 {
+  margin-left: 40px;
+}
+
+.colabore button {
+    max-width: 150px;
+    margin-top: 60px;
+    font-size: 0.9rem;
+    margin-left: 400px;
+}
+.meuscertificados h1 {
+  margin-left: 5%;
+  font-size: 2rem;
+}
+
+.imagens-certificados {
+  gap: 2rem;
+}
+
+.meuscertificados img {
+  width: 7rem;
+}
+}
+
+@media (max-width: 480px) {
+  #specificImage {
+      top: 350px;
+      max-width: 400px;
+  }
+  #boneco1 {
+    top: 445px;
+    margin-left: 30px;
+}
+
+#boneco2 {
+  width: 45vw;
+  height: auto;
+  margin-top: 212px;
+  margin-left: 15px;
+}
+#balao1 {
+  margin-left:3px;
+  }
+#balao3 {
+    margin-left:190px;
+    margin-top: -90px;
+    }
+    .colabore h1 {
+      font-size: 1.5rem;
+      padding-top: 5px;
+  }
+  
+  .colabore button {
+      max-width: 100px;
+      font-size: 0.8rem;
+      margin-left: 260px;
+  }
+  .meuscertificados h1 {
+    font-size: 1.8rem;
+    margin-left: 5%;
+  }
+
+  .imagens-certificados {
+    gap: 1.5rem;
+  }
+
+  .meuscertificados img {
+    width: 5.5rem;
+  }
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+}
+
+/* Telas médias (tablets e laptops pequenos) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  #specificImage {
+    top: 563px;
+    max-width: 780px;
+}
+#boneco1 {
+  width: 26vw;
+  height: auto;
+  top: 690px;
+  margin-left: 55px;
+}
+
+#boneco2 {
+  width: 30vw;
+  height: auto;
+  margin-top: 420px;
+  margin-left: 40px;
+}
+#balao1 {
+  margin-left:80px;
+  width: 50vw;
+  position: relative; /* ou absolute/fixed, conforme o caso */
+  top: -200px; /* valor negativo para subir o elemento */
+}
+#balao2 {
+  margin-left:350px;
+  width: 50vw;
+  position: relative; /* ou absolute/fixed, conforme o caso */
+  top: -18px;
+}
+#balao3 {
+  margin-left:80px;
+  width: 50vw;
+  position: relative; /* ou absolute/fixed, conforme o caso */
+  top: -100px; /* valor negativo para subir o elemento */
+}
+#balao4 {
+  margin-left:350px;
+  width: 48vw;
+  position: relative; /* ou absolute/fixed, conforme o caso */
+  top:80px;
+}
+.feedbacks h1{
+  margin-left: 40px;
+  font-size: 30px;
+
+}
+
+
+
+.colabore button {
+  max-width: 150px;
+  margin-top: 10px;
+  margin-left: 600px;
+}
+
+}
+
+/* Telas grandes (laptops de 15 polegadas ou mais) */
+@media (min-width: 1024px) {
+ 
+}

@@ -1,0 +1,115 @@
+.sm-container {
+    display: flex;
+    align-items: center; /* Alinha a logo e o menu na mesma altura */
+    justify-content: space-between; /* Espaça logo e menu nas extremidades */
+    background-color: #E9DCC6;
+    background-image: url('../assets/sm-textura.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sm-logo img {
+    width: 142px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 20vh; /* Espaçamento entre a logo e a navbar */
+    text-align: left;
+    margin-left: 15vh;
+    margin-top: 5vh;
+}
+
+.sm-navbar {
+    display: flex;
+    justify-content: center; /* Centraliza a navbar horizontalmente */
+    text-align: center;
+    align-items: center; /* Garante que os itens da navbar estejam centralizados verticalmente */
+    /* width: 100%; Faz a navbar ocupar a largura total */
+}
+
+.sm-navmenu {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espaçamento entre os itens do menu */
+    margin: 0;
+    padding: 0;
+}
+
+.sm-navmenu li {
+    color: #8D692D;
+
+    font-size: 18px;
+    font-family: 'Poi Aeronaut', sans-serif;
+    padding: 0 10px;
+}
+
+.sm-navmenu li a {
+    text-decoration: none;
+    font-family: 'Poi Aeronaut', sans-serif;
+    color: #8D692D;
+}
+
+.sm-navmenu li a:hover,
+.sm-navmenu .active a {
+    border-bottom: 2px solid #ED8A43;
+
+}
+
+.sm-about {
+    background-color: #E9DCC6;
+    font-family: 'Poi Aeronaut', sans-serif;
+    background-image: url('../assets/sm-textura.png');
+    background-size: cover;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: -30vh; /* Remove qualquer margem extra na parte inferior */
+    padding-bottom: 60px; /* Reduza o padding conforme necessário */
+    
+}
+
+.sm-about h1 {
+    font-size: 92px;
+    font-family: 'Poi Aeronaut', sans-serif;
+    color: #4e432f;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 12vw;
+    position: relative;
+    top: 150px
+}
+
+
+.sm-descricao p {
+    font-size: 24px; /* Define o tamanho da fonte do parágrafo como 18 pixels */
+    font-family: 'Poi Aeronaut', sans-serif;
+    line-height: 1.5; /* Define a altura da linha do texto como 1,5 vezes o tamanho da fonte, aumentando a legibilidade */
+    color: #8D692D; /* Define a cor do texto do parágrafo como um tom de marrom claro */
+    max-width: 550px; /* Define uma largura máxima de 460 pixels para o parágrafo, evitando que fique muito largo */
+    margin-left: 26vh; /* Adiciona 50 pixels de margem à esquerda do parágrafo */
+    text-align: left; /* Alinha o texto do parágrafo à esquerda */
+    position: relative;
+    top: 170px
+  
+}
+
+
+.profile-image {
+    width: 70vh;
+    margin-left: 50vh; /* Empurra a imagem para o lado direito */
+    margin-right: 5vh; /* Ajuste para o espaçamento em relação ao contêiner */
+    position: relative;
+    top: -17vh; /* Ajusta o valor conforme necessário para movê-la mais para cima */
+}
+
+.wave {
+    text-align:left;
+    margin-left: 12vw;
+    position: relative;
+    top: 150px
+}
+
+.wave img {
+    width: 500px;
+    /* max-width: 482px; */
+}

@@ -1,0 +1,228 @@
+/* CSS config */
+@font-face {
+  font-family: 'Poi Aeronaut';
+  src: url('./fonts/poi-aeronaut-trial-regular.woff2') format('woff2'),
+       url('./fonts/poi-aeronaut-trial-regular.woff') format('woff'),
+       url('./fonts/poi-aeronaut-trial-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #226682;
+  overflow: hidden;
+}
+
+/* CSS da NAV */
+.navbar {
+  position: fixed;
+  top: 3vh;
+  left: 39vw;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  z-index: 12;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  z-index: 12;
+
+}
+
+.navbar li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 18px;
+  z-index: 12;
+}
+
+.navbar li a.active {
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  border-bottom: 2px solid #FACB64;
+  padding-bottom: 2px;
+}
+
+/* CSS do Container */
+
+.image-container {
+  position: relative;
+  flex: 1;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CSS de textos */
+
+.titulo {
+  position: absolute;
+  top: 25vh;
+  left: 31vw;
+  width: 75vh;
+  height: auto;
+  z-index: 2;
+}
+
+.descricao {
+  position: relative;
+  top: 72vh;
+  left: -2vw;
+  font-family: 'Poi Aeronaut', sans-serif;
+  color: #D8CDB9;
+  text-align: center;
+  z-index: 5;
+}
+
+/* CSS de composições */
+
+/* Rato */
+.nuvem1 {
+  position: absolute;
+  left: 0vh;
+  bottom: -48vw;
+  z-index: 3;
+}
+
+.rato {
+  position: absolute;
+  left: 9vw;
+  bottom: -92vh;
+  z-index: 2;
+}
+
+.maca1 {
+  position: absolute;
+  left: 4vw;
+  top: 8vh;
+  width: 10vw;
+  height: auto;
+  z-index: 2;
+}
+
+.maca2 {
+  position: absolute;
+  left: 13vw;
+  top: 25vh;
+  width: 10vw;
+  height: auto;
+  z-index: 2;
+}
+
+.maca3 {
+  position: absolute;
+  left: 0vw;
+  top: 35vh;
+  width: 10vw;
+  height: auto;
+  z-index: 2;
+}
+
+/* Jacare */
+.nuvem2 {
+  position: absolute;
+  left: -10vh;
+  bottom: -49vw;
+  width: 50%;
+  z-index: 2;
+}
+
+.jacare {
+  position: absolute;
+  right: -51vh;
+  bottom: -48vw;
+  z-index: 3;
+}
+
+.nuvemJacare {
+  position: absolute;
+  bottom: -96.7vh;
+  right: -25vw;
+  z-index: 2;
+}
+
+/* porco */
+.porco {
+  position: absolute;
+  top: 0vh;
+  right: -24.1vw;
+  z-index: 3;
+}
+
+.nuvemPorco {
+  position: absolute;
+  top: 0vh;
+  right: -24.1vw;
+  z-index: 2;
+}
+
+.bolaMaior {
+  position: absolute;
+  top: 26vh;
+  right: -6vw;
+  z-index: 2;
+}
+
+.bolaMenor {
+  position: absolute;
+  top: 31vh;
+  right: -3vw;
+  z-index: 2;
+}
+
+/* elementos do título */
+.carangueijo {
+  position: absolute;
+  bottom: -69vh;
+  left: 50vw;
+  width: 10vw;
+  height: auto;
+  
+  z-index: 2;
+}
+
+.soldadinho {
+  position: absolute;
+  top: 29.8vh;
+  left: 31.3vw;
+  
+  z-index: 2;
+}
+
+.texturaOficial{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 1;
+  
+}
