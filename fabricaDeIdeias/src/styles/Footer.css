@@ -7,8 +7,12 @@ footer {
     
     .footerSection {
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    margin-left: -10vh; /* alterei essa linha no codigo (antes n tinha nada)- cml */
+    justify-content: space-around; /* alterei essa linha no codigo (era between)- cml */
+    flex-wrap: wrap; /* alterei essa linha no codigo (antes n tinha nada)- cml */
+    padding: 10px, 20px; /* alterei essa linha no codigo (antes era 20px)- cml */
+    text-align: center; /* alterei essa linha no codigo (antes n tinha nada)- cml */
+    
     }
     
     #img1, #img2, #img3 {
@@ -17,7 +21,7 @@ footer {
     margin-left: 10px;
     }
     .info {
-    width: 30%;
+    width: 20%; /* alterei essa linha no codigo (antes era 30%)- cml */
     }
     
     #title {
@@ -39,7 +43,7 @@ footer {
     font-family: 'Poi Aeronaut', sans-serif;
     margin: 10px 0;
     margin-left: 72px;
-    margin-top: 10px;
+    margin-top: 20px; /* alterei essa linha no codigo (antes era 10px)- cml */
     
     }
     
@@ -60,12 +64,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 55px; /* adc essa linha no codigo - cml */
+    margin-left: -10vh; /* adc essa linha no codigo - cml */
     }
     
     #toy1{
     width: 143.78px; 
     height: 158.89px;
-    margin-top: 100px;
+    margin-top: 115px; /* alterei essa linha no codigo (antes era 100px) - cml */
     margin-left: 40%;
     
     }
@@ -73,7 +79,7 @@ footer {
     #toy2 {
     width: 189.55px; 
     height: 170px;
-    margin-top: 90px;
+    margin-top: 100px; /* alterei essa linha no codigo (antes era 80px) - cml */
     }
     
     .footer-section {
@@ -81,7 +87,7 @@ footer {
     text-align: center; 
     }
     
-    .footer-section h2, .section h2 {
+    .footer-section h2 {
     font-size: 24px;
     color: #A7CDDF;
     font-family: 'Poi Aeronaut', sans-serif;
@@ -90,9 +96,10 @@ footer {
     margin-top: 50px;
     }
     
-    .footer-section p, .section p {
-    color: #A7CDDF;
+    .footer-section p {
+    color: #ffffff; /* alterei a cor pra branco (antes era A7CDDF)  - cml */
     margin: 5px 0;
+    font-family: 'Poi Aeronaut', sans-serif;
     
     }
     
@@ -108,8 +115,8 @@ footer {
     margin: 5px 0;
     
     }
-    .findUs h3{
-    font-weight: 400;
+    .findUs h2{
+    font-weight: 400; /* alterei de cima no codigo (antes era h3)- cml */
     font-family: 'Poi Aeronaut', sans-serif;
     color: hsl(199, 47%, 76%);
     margin-top: 50px;
@@ -117,6 +124,22 @@ footer {
     margin-left: 80px;
     }
 
+    /* adc - cml */ 
+    .footer-section-apoio h2 {
+        font-size: 24px;
+        color: #A7CDDF;
+        font-family: 'Poi Aeronaut', sans-serif;
+        margin-bottom: 10px;
+        font-weight: 400;
+        margin-top: 50px;
+    }
+ 
+        /* adc - cml */ 
+    .footer-section-apoio p {
+        color: #ffffff; /* alterei a cor pra branco (antes era A7CDDF)  - cml */
+        margin: 5px 0;
+        font-family: 'Poi Aeronaut', sans-serif;
+    }
   
     
     /* Media Queries para telas menores */

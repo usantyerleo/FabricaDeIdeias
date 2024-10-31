@@ -21,7 +21,7 @@ const Footer = () => {
                     </div>
 
                     <div className='findUs'>
-                        <h3>Nos encontre em</h3>
+                        <h2>Nos encontre em</h2>
                         <div className='socialIcons'>
                             <img id='img1' src={insta} alt="Instagram" />
                             <img id='img2' src={face} alt="Facebook" />
@@ -40,8 +40,8 @@ const Footer = () => {
                         <p>Matheus</p>
                     </div>
 
-                    <div className="section">
-                        <h2 className='apoio '>Apoio</h2>
+                    <div className="footer-section-apoio">   
+                        <h2>Apoio</h2>
                         <p>Softex</p>
                     </div>
                 </section>
