@@ -11,21 +11,14 @@ import textura from '../assets/textura.png';
 import boneco1 from '../assets/boneco1.png';
 import boneco2 from '../assets/boneco2.png';
 import nuvem1 from '../assets/Cloud.png';
-import nuvem2 from '../assets/nuvem 2.png';
 import jacare from '../assets/jacare.png';
 import porco from '../assets/porco.png';
-import titulo from '../assets/titulo.png';
-import nuvemJacare from '../assets/nuvemJacare.png';
-import nuvemPorco from '../assets/nuvemPorco.png';
 import rato from '../assets/rato.png';
 import maca1 from '../assets/maca1.png';
 import maca2 from '../assets/maca2.png';
 import maca3 from '../assets/maca3.png';
-import bolaMaior from '../assets/bolaMaior.png';
-import bolaMenor from '../assets/bolaMenor.png';
-import carangueijo from '../assets/carangueijo.png';
 import soldadinho from '../assets/soldadinho.png';
-import texturaOficial from '../assets/texturaOficial.png';
+import background from '../assets/background.png';
 import '../styles/HomeBottom.css';
 import '../styles/HomeTop.css';
 import { Link } from 'react-router-dom';
@@ -49,24 +42,15 @@ function Home() {
         <main>
           <div className="image-container">
             <img src={nuvem1} alt="Nuvem 1" className="nuvem1" />
-            <img src={nuvem2} alt="Nuvem 2" className="nuvem2" />
             <img src={jacare} alt="Jacaré" className="jacare" />
             <img src={porco} alt="Porco" className="porco" />
-            <img src={titulo} alt="Título" className="titulo" />
-            <img src={nuvemJacare} alt="Nuvem Jacaré" className="nuvemJacare" />
-            <img src={nuvemPorco} alt="Nuvem Porco" className="nuvemPorco" />
             <img src={rato} alt="Rato" className="rato" />
             <img src={maca1} alt="Maçã 1" className="maca1" />
             <img src={maca2} alt="Maçã 2" className="maca2" />
             <img src={maca3} alt="Maçã 3" className="maca3" />
-            <img src={bolaMaior} alt="Bola Maior" className="bolaMaior" />
-            <img src={bolaMenor} alt="Bola Menor" className="bolaMenor" />
-            <img src={carangueijo} alt="Caranguejo" className="carangueijo" />
             <img src={soldadinho} alt="Soldadinho" className="soldadinho" />
-            <img src={texturaOficial} alt="texturaOficial" className="texturaOficial"/>
-          </div>
-          <div className="descricao">
-            Sustentabilidade, desenvolvimento cognitivo infantil e valorização da cultura local
+            <img src={background} alt="background" className="background"/>
+            
           </div>
         </main>
       </div>
