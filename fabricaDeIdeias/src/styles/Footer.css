@@ -7,8 +7,8 @@ footer {
     
     .footerSection {
     display: flex;
-    margin-left: -10vh; /* alterei essa linha no codigo (antes n tinha nada)- cml */
-    justify-content: space-around; /* alterei essa linha no codigo (era between)- cml */
+    margin-left: -10vh; 
+    justify-content: space-around; 
     flex-wrap: wrap; /* alterei essa linha no codigo (antes n tinha nada)- cml */
     padding: 10px, 20px; /* alterei essa linha no codigo (antes era 20px)- cml */
     text-align: center; /* alterei essa linha no codigo (antes n tinha nada)- cml */

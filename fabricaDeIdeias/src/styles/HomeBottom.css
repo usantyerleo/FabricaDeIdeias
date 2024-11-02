@@ -19,11 +19,7 @@ body, html {
   overflow-x: hidden;
 }
 
-.inicio {
-  background-color: #2C728F;
-  width: 100vw;
-  height: 740px;
-}
+
 
 .sobremim {
   background-color: #844863;
@@ -273,73 +269,11 @@ body, html {
 }
 
 
-
-
-
-@media (max-width: 600px) {
-
-}
-
-/* Telas médias (tablets e laptops pequenos) */
 @media (min-width: 600px) and (max-width: 1024px) {
-  #specificImage {
-    top: 563px;
-    max-width: 780px;
-}
-#boneco1 {
-  width: 26vw;
-  height: auto;
-  top: 690px;
-  margin-left: 55px;
-}
-
-#boneco2 {
-  width: 30vw;
-  height: auto;
-  margin-top: 420px;
-  margin-left: 40px;
-}
-#balao1 {
-  margin-left:80px;
-  width: 50vw;
-  position: relative; /* ou absolute/fixed, conforme o caso */
-  top: -200px; /* valor negativo para subir o elemento */
-}
-#balao2 {
-  margin-left:350px;
-  width: 50vw;
-  position: relative; /* ou absolute/fixed, conforme o caso */
-  top: -18px;
-}
-#balao3 {
-  margin-left:80px;
-  width: 50vw;
-  position: relative; /* ou absolute/fixed, conforme o caso */
-  top: -100px; /* valor negativo para subir o elemento */
-}
-#balao4 {
-  margin-left:350px;
-  width: 48vw;
-  position: relative; /* ou absolute/fixed, conforme o caso */
-  top:80px;
-}
-.feedbacks h1{
-  margin-left: 40px;
-  font-size: 30px;
-
-}
-
-
-
-.colabore button {
-  max-width: 150px;
-  margin-top: 10px;
-  margin-left: 600px;
-}
-
-}
-
-/* Telas grandes (laptops de 15 polegadas ou mais) */
-@media (min-width: 1024px) {
  
+
+
+
+
+
 }
