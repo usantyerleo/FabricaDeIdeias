@@ -4,7 +4,7 @@ import laursaa from '../assets/laursaa.png';
 import listrinhaschico from '../assets/listrinhaschico.png';
 import image from '../assets/image.png';
 import recycle from '../assets/recycle.png'
-import '../styles/colabore.css'; 
+import '../styles/Colabore.css'; 
 import Footer from '../components/Footer.jsx';
 
 

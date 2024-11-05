@@ -1,8 +1,8 @@
 import '../src/styles/Footer.css'
-import Home from './pages/HomeBottom.jsx';
-import Sobremim from './pages/sobremim.jsx';
-import Colabore from './pages/colabore.jsx'
-import Catalogo from './pages/catalogo.jsx'
+import Home from './pages/Home.jsx';
+import Sobremim from './pages/Sobremim.jsx';
+import Colabore from './pages/Colabore.jsx'
+import Catalogo from './pages/Catalogo.jsx'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
   function App() {
@@ -13,7 +13,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
           <Route path="/Sobremim" element={<Sobremim />} />
           <Route path="/Colabore" element={<Colabore />} />
           <Route path="/Catalogo" element={<Catalogo />} />
-
         </Routes>
       </Router>
     );

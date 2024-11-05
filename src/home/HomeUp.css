@@ -1,0 +1,133 @@
+/* CSS config */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+
+  overflow: hidden;
+  /* Remove a barra de rolagem */
+  overflow-y: scroll;
+  /* Permite rolar verticalmente */
+  -ms-overflow-style: none;
+  /* Para navegadores Internet Explorer e Edge */
+  scrollbar-width: none;
+  /* Para Firefox */
+
+}
+
+
+@font-face {
+  font-family: 'Poi Aeronaut';
+  src: url('./fonts/poi-aeronaut-trial-regular.woff2') format('woff2'),
+    url('./fonts/poi-aeronaut-trial-regular.woff') format('woff'),
+    url('./fonts/poi-aeronaut-trial-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #226682;
+
+
+}
+
+
+
+/* CSS do Container */
+
+.image-container {
+  position: relative;
+  flex: 1;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nuvem1 {
+  position: absolute;
+  left: 0vh;
+  bottom: -47.4vw;
+  z-index: 2;
+}
+
+.rato {
+  position: absolute;
+  left: 9vw;
+  bottom: -87vh;
+  z-index: 1;
+}
+
+.maca1 {
+  position: absolute;
+  left: 4vw;
+  top: 8vh;
+  width: 10vw;
+  height: auto;
+  z-index: 1;
+}
+
+.maca2 {
+  position: absolute;
+  left: 13vw;
+  top: 25vh;
+  width: 10vw;
+  height: auto;
+  z-index: 1;
+}
+
+.maca3 {
+  position: absolute;
+  left: 0vw;
+  top: 35vh;
+  width: 10vw;
+  height: auto;
+  z-index: 1;
+}
+
+
+.jacare {
+  position: absolute;
+  right: -53vh;
+  bottom: -47vw;
+  z-index: 1;
+}
+
+.porco {
+  position: absolute;
+  top: 0vh;
+  right: -25vw;
+  z-index: 1;
+}
+
+.soldadinho {
+  position: absolute;
+  top: 34.5vh;
+  left: 31vw;
+
+  z-index: 1;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+}

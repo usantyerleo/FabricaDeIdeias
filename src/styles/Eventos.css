@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Poi Aeronaut';
+    src: url('./fonts/poi-aeronaut-trial-regular.woff2') format('woff2'),
+      url('./fonts/poi-aeronaut-trial-regular.woff') format('woff'),
+      url('./fonts/poi-aeronaut-trial-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.eventosWindow{
+    width: 100vw;
+    height: 300vh;
+    background-color: #844863;
+}
+
+
+
+.eventText{
+    width: 35vw;
+    padding-left: 10vw;
+    font-family: 'Poi Aeronaut';
+    font-size: 1.5rem;
+}
+
+.evento1{
+padding-top: 40vh;
+}
+
+#titles{
+    font-size: 2.5rem;
+    padding-bottom: 3vh;
+}
+
+#event1{
+    padding-top: 0vh;
+}
+
+#event1, #event2, #event3{
+    padding-bottom: 55vh;
+}
+
+.eventText {
+    position: relative;
+    z-index: 1; 
+  }
+  
+  .eventImg {
+    position: relative;
+  }
+  
+  .imagem {
+    width: 400px; 
+    cursor: pointer;
+    border-radius: 20px;
+   
+  }
+
+  #imagem1{
+    position: absolute; 
+    top: -280vh; 
+    left: 0; 
+    z-index: 2; 
+  }
+
+  #imagem2{
+    position: absolute; 
+    top: -260vh; 
+    left: 0; 
+    z-index: 2; 
+  }
+
+  #imagem3{
+    position: absolute; 
+    top: -240vh; 
+    left: 0; 
+    z-index: 2; 
+  }

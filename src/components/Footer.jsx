@@ -4,6 +4,8 @@ import face from '../assets/facebook.png';
 import insta from '../assets/instagram.png';
 import whats from '../assets/whatsapp.png';
 import '../styles/Footer.css'
+
+
 const Footer = () => {
     return (
         <>

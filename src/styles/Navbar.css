@@ -1,0 +1,34 @@
+.navbar {
+  position: fixed;
+  top: 3vh;
+  left: 39vw;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  z-index: 12;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  z-index: 12;
+
+}
+
+.navbar li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 18px;
+  z-index: 12;
+}
+
+.navbar li a.active {
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  border-bottom: 2px solid #FACB64;
+  padding-bottom: 2px;
+}

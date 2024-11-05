@@ -1,0 +1,79 @@
+.colabore {
+    background-color: #D1CEA9;
+    width: 100vw;
+    height: 178px;
+}
+
+.colabore h1 {
+    font-family: 'Poi Aeronaut', sans-serif;
+    font-weight: 400;
+    color: #C35D3A;
+    margin-left: 144px;
+    font-size: 40px;
+    padding-top: 65px;
+}
+
+.colabore button {
+    font-family: 'Poi Aeronaut', sans-serif;
+    font-weight: 300;
+    background-color: #C35D3A;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 1200px;
+    position: relative;
+    top: -60px;
+}
+
+.colabore h2 {
+    font-weight: 400;
+    color: #444444;
+    margin-left: 144px;
+    font-size: 19px;
+}
+
+
+@media (max-width: 480px) {
+
+    .colabore h1 {
+        font-size: 1.5rem;
+        padding-top: 5px;
+    }
+
+    .colabore button {
+        max-width: 100px;
+        font-size: 0.8rem;
+        margin-left: 260px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .colabore h1 {
+        font-size: 2rem;
+        padding-top: 30px;
+        margin-left: 40px;
+    }
+
+    .colabore h2 {
+        margin-left: 40px;
+    }
+
+    .colabore button {
+        max-width: 150px;
+        margin-top: 60px;
+        font-size: 0.9rem;
+        margin-left: 400px;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+
+    .colabore button {
+        max-width: 150px;
+        margin-top: 10px;
+        margin-left: 600px;
+    }
+
+}
