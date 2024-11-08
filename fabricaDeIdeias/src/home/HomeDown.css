@@ -8,23 +8,6 @@
   
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body, html {
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-}
-
-.inicio {
-  background-color: #2C728F;
-  width: 100vw;
-  height: 740px;
-}
 
 .sobremim {
   background-color: #844863;

@@ -1,11 +1,4 @@
-@font-face {
-    font-family: 'Poi Aeronaut';
-    src: url('./fonts/poi-aeronaut-trial-regular.woff2') format('woff2'),
-      url('./fonts/poi-aeronaut-trial-regular.woff') format('woff'),
-      url('./fonts/poi-aeronaut-trial-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
+
 
 .eventosWindow{
     width: 100vw;
@@ -15,12 +8,12 @@
 
 
 
-.eventText{
+/*.eventText{
     width: 35vw;
     padding-left: 10vw;
     font-family: 'Poi Aeronaut';
     font-size: 1.5rem;
-}
+}*/
 
 .evento1{
 padding-top: 40vh;

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import nuvem1 from '../assets/Cloud.png';
 import jacare from '../assets/jacare.png';
 import porco from '../assets/porco.png';

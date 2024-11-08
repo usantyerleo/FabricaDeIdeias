@@ -1,11 +1,4 @@
-@font-face {
-  font-family: 'Poi Aeronaut';
-  src: url('./fonts/poi-aeronaut-trial-regular.woff2') format('woff2'),
-       url('./fonts/poi-aeronaut-trial-regular.woff') format('woff'),
-       url('./fonts/poi-aeronaut-trial-regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 * {
   margin: 0;
@@ -19,6 +12,7 @@ html {
   width: 100%;
   font-family: 'Arial', sans-serif;
   background-color: #E9DCC6;
+  
 }
 
 .header {

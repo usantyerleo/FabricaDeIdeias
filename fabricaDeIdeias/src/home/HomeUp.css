@@ -7,7 +7,7 @@
 
 body,
 html {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   font-family: 'Arial', sans-serif;
 
@@ -22,15 +22,6 @@ html {
 
 }
 
-
-@font-face {
-  font-family: 'Poi Aeronaut';
-  src: url('./fonts/poi-aeronaut-trial-regular.woff2') format('woff2'),
-    url('./fonts/poi-aeronaut-trial-regular.woff') format('woff'),
-    url('./fonts/poi-aeronaut-trial-regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 
 .container {
   display: flex;

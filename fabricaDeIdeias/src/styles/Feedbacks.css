@@ -126,62 +126,40 @@
 
 
 @media (min-width: 600px) and (max-width: 1024px) {
-    #specificImage {
-        top: 563px;
-        max-width: 780px;
-    }
+  .feedbacks{
+    height: 530px;
+  }
+  #boneco1 {
+    top: 450px;
+    width: 18vw;
+    margin-left: 38px;
 
-    #boneco1 {
-        width: 26vw;
-        height: auto;
-        top: 690px;
-        margin-left: 55px;
-    }
+}
 
-    #boneco2 {
-        width: 30vw;
-        height: auto;
-        margin-top: 420px;
-        margin-left: 40px;
-    }
+#boneco2 {
+  width: 23vw;
+  height: auto;
+  padding-top: 10px;
+  margin-left: 3px;
 
-    #balao1 {
-        margin-left: 80px;
-        width: 50vw;
-        position: relative;
-        /* ou absolute/fixed, conforme o caso */
-        top: -200px;
-        /* valor negativo para subir o elemento */
-    }
+  }
+  #balao1 {
+    margin-left:210px;
 
+    }
     #balao2 {
-        margin-left: 350px;
-        width: 50vw;
-        position: relative;
-        /* ou absolute/fixed, conforme o caso */
-        top: -18px;
-    }
+      margin-left:650px;
 
-    #balao3 {
-        margin-left: 80px;
-        width: 50vw;
-        position: relative;
-        /* ou absolute/fixed, conforme o caso */
-        top: -100px;
-        /* valor negativo para subir o elemento */
-    }
-
-    #balao4 {
-        margin-left: 350px;
-        width: 48vw;
-        position: relative;
-        /* ou absolute/fixed, conforme o caso */
-        top: 80px;
-    }
-
-    .feedbacks h1 {
-        margin-left: 40px;
-        font-size: 30px;
-
-    }
+      }
+      #balao3 {
+        margin-left: 250px;
+  
+        }
+        #balao4 {
+          margin-left: 630px;
+    
+          }
+          .colabore button {
+            margin-left: 830px;
+        }
 }
