@@ -22,8 +22,8 @@ function Eventos() {
         </div>
       </section>
 
-      <section className="eventImg">
-        <div>
+      
+        
           <motion.img
             src={evento1}
             alt="Evento 1"
@@ -38,8 +38,7 @@ function Eventos() {
             whileHover={{ x: "180%" }} // Move para a direita ao passar o mouse
             transition={{ type: "tween", duration: 2 }}
           />
-        </div>
-        <div>
+        
           <motion.img
             src={evento2}
             alt="Evento 2"
@@ -54,8 +53,7 @@ function Eventos() {
             whileHover={{ x: "180%" }}
             transition={{ type: "tween", duration: 2 }}
           />
-        </div>
-        <div>
+        
           <motion.img
             src={evento3}
             alt="Evento 3"
@@ -70,8 +68,8 @@ function Eventos() {
             whileHover={{ x: "180%" }}
             transition={{ type: "tween", duration: 2 }}
           />
-        </div>
-      </section>
+        
+      
     </main>
   );
 }

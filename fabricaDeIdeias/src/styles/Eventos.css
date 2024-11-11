@@ -8,12 +8,12 @@
 
 
 
-/*.eventText{
+.eventText{
     width: 35vw;
     padding-left: 10vw;
     font-family: 'Poi Aeronaut';
     font-size: 1.5rem;
-}*/
+}
 
 .evento1{
 padding-top: 40vh;
@@ -37,14 +37,13 @@ padding-top: 40vh;
     z-index: 1; 
   }
   
-  .eventImg {
-    position: relative;
-  }
+  
   
   .imagem {
     width: 400px; 
     cursor: pointer;
     border-radius: 20px;
+    display: flex;
    
   }
 
@@ -58,7 +57,7 @@ padding-top: 40vh;
   #imagem2{
     position: absolute; 
     top: -260vh; 
-    left: 0; 
+    left: 100; 
     z-index: 2; 
   }
 
