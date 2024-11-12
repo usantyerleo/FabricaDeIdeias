@@ -13,11 +13,12 @@
   margin-top: 30px;
 }
 
-/*Keyframe estava esticando a página, e foi removido*/
+
 
 .imagens-certificados {
   display: flex;
   gap: 60px;
+  align-items: center;
   width: 100vw;
   margin-top: 40px;
   animation: slide 15s linear infinite; 
@@ -29,6 +30,43 @@
   height: 80.07px;
   object-fit: contain;
   flex-shrink: 0;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+  z-index: 1000;
+  text-align: center;
+}
+
+.modal-image {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #888;
+}
+
+
+.close-button:hover {
+  color: #555;
 }
 
 @media (max-width: 768px) {
@@ -62,3 +100,8 @@
     width: 5.5rem;
   }
 }
+
+
+
+
+

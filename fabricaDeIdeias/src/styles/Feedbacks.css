@@ -2,6 +2,7 @@
     background-color: #637136;
     min-height: 75vh;
     width: 100vw;
+    
     position: relative;
 }
 
@@ -21,18 +22,19 @@
 }
 
 #boneco1 {
-    width: 204.2px;
+    width: 13vw;
     height: 79.4px;
     position: absolute;
     top: 467.8px;
     margin-left: 75px;
+    
 }
 
 #boneco2 {
-    width: 274.8px;
+    width: 14vw;
     height: 173.72px;
     margin-top: 165px;
-    margin-left: 20px;
+    margin-left: 65px;
 }
 
 .balao {
