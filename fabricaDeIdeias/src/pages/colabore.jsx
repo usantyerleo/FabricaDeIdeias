@@ -14,7 +14,7 @@ function Colabore() {
         <>
             <div className="colabore-container">
                 <div className="background-image">
-                    <h1>Colabore</h1>
+                    <h1 id='colab'>Colabore</h1>
                     <img id='boneco' src={listrinhaschico} alt="Imagem contendo listras coloridas e Chico Science" className="icon" />
                         <img id= 'laursaa' src={laursaa} alt="Imagem da La Ursa" className="icon" />
                         <img id='chiee' src={chiee} alt="Imagem do carangueijo" className="icon" />
