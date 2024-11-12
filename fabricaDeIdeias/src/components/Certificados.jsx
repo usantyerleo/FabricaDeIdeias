@@ -38,9 +38,9 @@ function Certificados() {
         <div className="meuscertificados">
             <h1>Meus Certificados</h1>
             <div className="imagens-certificados">
-                {certificados.map(cert => (
+                {[...certificados, ...certificados].map(cert => (
                     <motion.img 
-                        key={cert.id} 
+                        key={`${cert.id}-${Math.random()}`} 
                         src={cert.img} 
                         alt={cert.title} 
                         onClick={() => setSelectedId(cert.id)}
@@ -74,8 +74,7 @@ function Certificados() {
                             alt={selectedCertificado.title} 
                             className="modal-image"
                         />
-                     </motion.div>
-
+                    </motion.div>
                 )}
             </AnimatePresence>
         </div>
