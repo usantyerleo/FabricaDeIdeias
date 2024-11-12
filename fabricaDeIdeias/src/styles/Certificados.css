@@ -18,8 +18,6 @@
 .imagens-certificados {
   display: flex;
   gap: 60px;
-  align-items: center;
-  width: calc(200% + 60px); 
   width: 100vw;
   margin-top: 40px;
   animation: slide 30s linear infinite; 
@@ -31,43 +29,6 @@
   height: 80.07px;
   object-fit: contain;
   flex-shrink: 0;
-}
-.modal {
-  position: fixed;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  background: rgb(255, 255, 255);
-  padding: 50px;
-  border-radius: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  max-width: 500px;
-  width: 90%;
-  z-index: 1000;
-  text-align: center;
-}
-
-.modal-image {
-  width: 80%;
-  height: auto;
-  border-radius: 10px;
-  margin-top: 15px;
-}
-
-.close-button {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: transparent;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-  color: #888;
-}
-
-
-.close-button:hover {
-  color: #555;
 }
 
 @media (max-width: 768px) {
@@ -101,15 +62,3 @@
     width: 5.5rem;
   }
 }
-
-
-
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
