@@ -1,67 +1,47 @@
-.eventosWindow{
-  width: 100vw;
-  height: 300vh;
+.Events-VP {
   background-color: #844863;
 }
 
-
-
-.eventText{
-  width: 35vw;
-  padding-left: 10vw;
-  font-family: 'Poi Aeronaut';
-  font-size: 1.5rem;
-}
-
-.evento1{
-padding-top: 40vh;
-}
-
-#titles{
-  font-size: 2.5rem;
-  padding-bottom: 3vh;
-}
-
-#event1{
-  padding-top: 0vh;
-}
-
-#event1, #event2, #event3{
-  padding-bottom: 55vh;
-}
-
-.eventText {
-  position: relative;
-  z-index: 1; 
-}
-
-
-
-.imagem {
-  width: 400px; 
-  cursor: pointer;
-  border-radius: 20px;
+.Events {
+  width: 100%;
+  max-width: 70%;
+  margin: 0 auto;
+  min-height: 80vh;
   display: flex;
- 
+  align-items: center;
+  justify-content: center;
 }
 
-#imagem1{
-  position: absolute; 
-  top: -280vh; 
-  left: 0; 
-  z-index: 2; 
+.Events-Text {
+  font-size: 2rem;
+  font-family: 'Poi Aeronaut', sans-serif;
+  font-weight: 400;
+  color: #5A1903;
+  position: relative;
+  top: 10vh;
+  left: 5vw;
 }
 
-#imagem2{
-  position: absolute; 
-  top: -260vh; 
-  left: 100; 
-  z-index: 2; 
+.inner {
+  display: flex;
+
 }
 
-#imagem3{
-  position: absolute; 
-  top: -240vh; 
-  left: 0; 
-  z-index: 2; 
+.item {
+  min-height: 200px;
+  min-width: 400px;
+  padding: 14px;
+}
+
+.item img {
+  width: 100%;
+  height: 90%;
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+
 }

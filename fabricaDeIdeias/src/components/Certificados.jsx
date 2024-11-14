@@ -38,15 +38,9 @@ function Certificados() {
         <div className="meuscertificados">
             <h1>Meus Certificados</h1>
             <div className="imagens-certificados">
-<<<<<<< Updated upstream
                 {[...certificados, ...certificados].map(cert => (
                     <motion.img 
                         key={`${cert.id}-${Math.random()}`} 
-=======
-                {certificados.map(cert => (
-                    <motion.img 
-                        key={cert.id} 
->>>>>>> Stashed changes
                         src={cert.img} 
                         alt={cert.title} 
                         onClick={() => setSelectedId(cert.id)}
@@ -80,12 +74,7 @@ function Certificados() {
                             alt={selectedCertificado.title} 
                             className="modal-image"
                         />
-<<<<<<< Updated upstream
                     </motion.div>
-=======
-                     </motion.div>
-
->>>>>>> Stashed changes
                 )}
             </AnimatePresence>
         </div>
