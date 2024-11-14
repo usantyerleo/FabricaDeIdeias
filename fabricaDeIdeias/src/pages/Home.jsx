@@ -38,8 +38,6 @@ function Home() {
             <img src={background} alt="background" className="background" />
           </div>
         </main>
-
-
       </div>
 
 
