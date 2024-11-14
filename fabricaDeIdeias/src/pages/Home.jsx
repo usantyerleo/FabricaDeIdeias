@@ -40,8 +40,7 @@ function Home() {
         </main>
       </div>
 
-
-      <Eventos/>
+      <Eventos />
       <Certificados />
       <Feedbacks />
       <Ajude />

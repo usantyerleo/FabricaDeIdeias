@@ -7,7 +7,7 @@ import raiva from '../assets/raiva.png'
 import medo from '../assets/medo.png'
 import chapeuzinho from '../assets/chapeuzinho.png'
 import porquinhos from '../assets/porquinhos.png'
-import logo from '../assets/sm-logo.svg';
+import logo from '../assets/logo2.png';
 import { Link } from 'react-router-dom';
 
 function Catalogo() {
@@ -25,7 +25,7 @@ function Catalogo() {
     <>
       <div className='header'>
       <div className="logo"> 
-          <img src={logo} alt="Fabrica de Ideias"/>
+          <Link to="/" className="active"> <img src={logo} alt="Fabrica de Ideias"/></Link>
         </div>
         <nav className="bar">
           <ul className="menu">

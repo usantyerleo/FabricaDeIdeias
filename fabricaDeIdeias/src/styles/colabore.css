@@ -1,46 +1,80 @@
-
 .colabore-container {
-    display: flex;
-    justify-content: space-between; 
-    align-items: flex-start; 
+  width: 100vw;
+  height: 100vh;
 }
 
-.title {
-    width: 500%; 
-    font-size: 24px;
+.background-image {
+  width: 100vw;
+  height: 48vh;
+  background-image: url('../assets/texturaa.png');
+  display: flex;
+  color: white; 
 }
 
-.discription {
-  width: 500%; 
+#boneco{
+  height: 10rem;
+  margin-top: 12rem;
+  margin-left: -16rem;
+  
+}
+
+#chiee{
+  margin-left: -52rem;
+  width: 119.01px;
+  height: 80.12px;
+  margin-top: 19rem;
+}
+
+#urso{
+  height: 10rem;
+  margin-top: -400rem;
+}
+
+
+#laursaa{
+  width: 172px;
+  height: 140px;
+  margin-top: 13.2rem;
+  margin-left: 37rem;
+
+}
+.colabore-container p {
+  margin-left: 4rem;
+  margin-top: 9rem;
+  width: 45%; 
+  line-height: 1.6; 
+}
+
+
+
+
+.container.ajuda-section {
+  display: flex;              /* Aplica o layout flexível */
+  gap: 20px;                  /* Espaço entre os itens (colunas ou linhas) */
+  margin-top: 20px;           /* Espaçamento superior */
+  flex-wrap: wrap;            /* Permite que os itens quebrem para a próxima linha em telas pequenas */
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+.item {
+  flex: 1 1 45%; /* cada item ocupa cerca de 45% do container */
+  margin: 10px;
+}
+
+.item h3 {
   font-size: 24px;
+  color: #d65a31; /* cor dos números */
 }
 
-.banner {
-    background-color: #f5eedc; 
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    border: 1px solid #ccc;
-  }
-  
-  .icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-  }
-  
-  span {
-    color: #4d4d4d; 
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-  }
-  
 
-
-
-
-
-
-
-
+#colab{
+  font-size: 4rem;
+  margin-left: 10vw;
+  margin-top: 8rem;
+  font-family: 'Poi Aeronaut', sans-serif;
+  font-weight: 400;
+}
 

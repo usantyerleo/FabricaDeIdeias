@@ -11,7 +11,7 @@ function Sobremim() {
     <>
       <div className="sm-container">
         <div className="sm-logo"> 
-          <Link to="/sobremim" className="active"> <img src={logo} alt="Fabrica de Ideias"/></Link>
+          <Link to="/" className="active"> <img src={logo} alt="Fabrica de Ideias"/></Link>
         </div>
         <nav className="sm-navbar">
           <ul className="sm-navmenu">
