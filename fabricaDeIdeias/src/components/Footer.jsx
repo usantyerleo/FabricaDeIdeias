@@ -25,9 +25,9 @@ const Footer = () => {
                     <div className='findUs'>
                         <h2>Nos encontre em</h2>
                         <div className='socialIcons'>
-                            <img id='img1' src={insta} alt="Instagram" />
+                            <a href="https://www.instagram.com/fabricas_de_ideias/"><img id='img1' src={insta} alt="Instagram" /></a>
                             <img id='img2' src={face} alt="Facebook" />
-                            <img id='img3' src={whats} alt="WhatsApp" />
+                            <a href="https://api.whatsapp.com/message/23Q3N4KIHR3WG1?autoload=1&app_absent=0"><img id='img3' src={whats} alt="WhatsApp" /></a>
                         </div>
                         </div>
 
