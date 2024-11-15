@@ -1,4 +1,3 @@
-/* Seção do Footer */
 footer {
     width: 100vw;
     background-color: #22627F;
@@ -7,12 +6,11 @@ footer {
     
     .footerSection {
     display: flex;
-    margin-left: -10vh; /* alterei essa linha no codigo (antes n tinha nada)- cml */
-    justify-content: space-around; /* alterei essa linha no codigo (era between)- cml */
-    flex-wrap: wrap; /* alterei essa linha no codigo (antes n tinha nada)- cml */
-    padding: 10px, 20px; /* alterei essa linha no codigo (antes era 20px)- cml */
-    text-align: center; /* alterei essa linha no codigo (antes n tinha nada)- cml */
-    
+    margin-left: -10vh; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px, 20px; 
+    text-align: center;
     }
     
     #img1, #img2, #img3 {
@@ -21,8 +19,8 @@ footer {
     margin-left: 10px;
     }
     .info {
-    width: 20%; /* alterei essa linha no codigo (antes era 30%)- cml */
-    }
+    width: 20%; 
+  }
     
     #title {
     font-family: 'Poi Aeronaut', sans-serif;
@@ -43,8 +41,7 @@ footer {
     font-family: 'Poi Aeronaut', sans-serif;
     margin: 10px 0;
     margin-left: 72px;
-    margin-top: 20px; /* alterei essa linha no codigo (antes era 10px)- cml */
-    
+    margin-top: 20px; 
     }
     
     .socialIcons{
@@ -64,14 +61,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 55px; /* adc essa linha no codigo - cml */
-    margin-left: -10vh; /* adc essa linha no codigo - cml */
+    margin-top: 55px; 
+    margin-left: -10vh; 
     }
     
     #toy1{
     width: 143.78px; 
     height: 158.89px;
-    margin-top: 115px; /* alterei essa linha no codigo (antes era 100px) - cml */
+    margin-top: 115px; 
     margin-left: 40%;
     
     }
@@ -79,7 +76,7 @@ footer {
     #toy2 {
     width: 189.55px; 
     height: 170px;
-    margin-top: 100px; /* alterei essa linha no codigo (antes era 80px) - cml */
+    margin-top: 100px; 
     }
     
     .footer-section {
@@ -97,7 +94,7 @@ footer {
     }
     
     .footer-section p {
-    color: #ffffff; /* alterei a cor pra branco (antes era A7CDDF)  - cml */
+    color: #ffffff; 
     margin: 5px 0;
     font-family: 'Poi Aeronaut', sans-serif;
     
@@ -116,7 +113,7 @@ footer {
     
     }
     .findUs h2{
-    font-weight: 400; /* alterei de cima no codigo (antes era h3)- cml */
+    font-weight: 400; 
     font-family: 'Poi Aeronaut', sans-serif;
     color: hsl(199, 47%, 76%);
     margin-top: 50px;
@@ -124,7 +121,6 @@ footer {
     margin-left: 80px;
     }
 
-    /* adc - cml */ 
     .footer-section-apoio h2 {
         font-size: 24px;
         color: #A7CDDF;
@@ -134,15 +130,13 @@ footer {
         margin-top: 50px;
     }
  
-        /* adc - cml */ 
     .footer-section-apoio p {
-        color: #ffffff; /* alterei a cor pra branco (antes era A7CDDF)  - cml */
+        color: #ffffff; 
         margin: 5px 0;
         font-family: 'Poi Aeronaut', sans-serif;
     }
   
     
-    /* Media Queries para telas menores */
     @media (max-width: 768px) {
     .footerSection {
         flex-direction: column;

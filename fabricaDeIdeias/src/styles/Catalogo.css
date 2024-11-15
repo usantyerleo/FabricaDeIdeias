@@ -16,13 +16,20 @@ html {
 }
 
 .header {
-  height: 160px; 
+  height: 145px; 
   background-image: url('../assets/texturacat.png'); 
   background-size: cover; 
   background-position: center; 
   display: flex;
   justify-content: space-between; 
   padding: 0px 40px;
+}
+
+.nome img{
+  margin-top: 87px;
+  height: 6vw;
+  width: 25vw;
+
 }
 
 .catalogo h3 {

@@ -11,16 +11,18 @@
   margin-left: 144px;
   font-size: 40px;
   margin-top: 30px;
+  margin-left: 9.4vw;
+
+  
 }
 
 .imagens-certificados {
   display: flex;
   gap: 60px;
   align-items: center;
-  overflow: hidden; /* Esconde as bordas para o loop */
-  width: calc(200% + 60px); /* Duplicação para permitir o loop */
   position: relative;
-  animation: slide 30s linear infinite; /* Ajuste de duração para suavidade */
+  animation: slide 20s linear infinite; 
+  margin-top: 2.5vw;
 }
 
 .imagens-certificados::before,

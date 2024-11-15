@@ -9,7 +9,7 @@ import chapeuzinho from '../assets/chapeuzinho.png'
 import porquinhos from '../assets/porquinhos.png'
 import logo from '../assets/logo2.png';
 import { Link } from 'react-router-dom';
-
+import catalogo from '../assets/catalogo.png'
 function Catalogo() {
   const produtos = [
     { id: 1, nome: 'Boneca divertidamente: Tristeza', preco: 'R$ 85,00', imagem: tristeza },
@@ -27,6 +27,9 @@ function Catalogo() {
       <div className="logo"> 
           <Link to="/" className="active"> <img src={logo} alt="Fabrica de Ideias"/></Link>
         </div>
+        <div className='nome'>
+        <img src={catalogo} alt="" />
+        </div>
         <nav className="bar">
           <ul className="menu">
             <li><Link to="/">Início</Link></li>
@@ -35,6 +38,7 @@ function Catalogo() {
             <li><Link to="/catalogo">Catálogo</Link></li>
           </ul>
         </nav>
+
       </div>
       <div className='catalogo'>
         <h3>Buscar por</h3>

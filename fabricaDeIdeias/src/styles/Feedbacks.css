@@ -2,7 +2,7 @@
     background-color: #637136;
     min-height: 75vh;
     width: 100vw;
-    
+
     position: relative;
 }
 
@@ -10,9 +10,9 @@
     font-family: 'Poi Aeronaut', sans-serif;
     font-weight: 400;
     color: #1E2605;
-    margin-left: 144px;
+    margin-left: 9.4vw;
     font-size: 40px;
-    padding-top: 71px;
+    padding-top: 5vw;
 }
 
 #specificImage {
@@ -23,152 +23,48 @@
 
 #boneco1 {
     width: 13vw;
-    height: 79.4px;
     position: absolute;
-    top: 467.8px;
-    margin-left: 75px;
+    top: 30.5vw;
+    margin-left: 5vw;
     
 }
 
 #boneco2 {
-<<<<<<< Updated upstream
     width: 16vw;
-    height: 173.72px;
-    margin-top: 165px;
-    margin-left: 45px;
-=======
-    width: 14vw;
-    height: 173.72px;
-    margin-top: 165px;
-    margin-left: 65px;
->>>>>>> Stashed changes
+    height: 9vw;
+    margin-top: 13vw;
+    margin-left: 3vw;
 }
 
 .balao {
     background-color: #D1CEA9;
     border-radius: 15px;
-    padding: 20px;
+    padding: 2vw;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    width: 368px;
-    height: 135px;
-    margin: 20px;
+    width: 28vw;
+    margin: 2vw;
     font-size: 20px;
     font-family: 'Poi Aeronaut', sans-serif;
     color: #706F5D;
 }
 
 #balao1 {
-    margin-left: 275px;
-    margin-top: -300px;
+    margin-left: 17vw;
+    margin-top: -19vw;
 }
 
 #balao2 {
-    margin-left: 732px;
-    margin-top: -195px;
+    margin-left: 53vw;
+    margin-top: -14vw;
 }
 
 #balao3 {
-    margin-left: 490px;
-    margin-top: 90px;
+    margin-left: 25vw;
+    margin-top: 6vw;
 }
 
 #balao4 {
-    margin-left: 969px;
-    margin-top: -195px;
+    margin-left: 62vw;
+    margin-top: -13vw;
 }
 
-@media (max-width: 480px) {
-    #specificImage {
-        top: 350px;
-        max-width: 400px;
-    }
-
-    #boneco1 {
-        top: 445px;
-        margin-left: 30px;
-    }
-
-    #boneco2 {
-        width: 45vw;
-        height: auto;
-        margin-top: 212px;
-        margin-left: 15px;
-    }
-
-    #balao1 {
-        margin-left: 3px;
-    }
-
-    #balao3 {
-        margin-left: 190px;
-        margin-top: -90px;
-    }
-
-}
-
-@media (max-width: 768px) {
-    #specificImage {
-        top: 350px;
-        max-width: 780px;
-    }
-    #boneco1 {
-      width: 35vw;
-      height: auto;
-      top: 468px;
-      margin-left: 50px;
-    }
-    
-    #boneco2 {
-      width: 40vw;
-      height: auto;
-      margin-top: 195px;
-      margin-left: 33px;
-    }
-    #balao1, #balao3 {
-      margin-left:270px;
-      width: 50vw;
-      height: auto;
-    }
-    
-  }
-  
-
-
-@media (min-width: 600px) and (max-width: 1024px) {
-  .feedbacks{
-    height: 530px;
-  }
-  #boneco1 {
-    top: 450px;
-    width: 18vw;
-    margin-left: 38px;
-
-}
-
-#boneco2 {
-  width: 23vw;
-  height: auto;
-  padding-top: 10px;
-  margin-left: 3px;
-
-  }
-  #balao1 {
-    margin-left:210px;
-
-    }
-    #balao2 {
-      margin-left:650px;
-
-      }
-      #balao3 {
-        margin-left: 250px;
-  
-        }
-        #balao4 {
-          margin-left: 630px;
-    
-          }
-          .colabore button {
-            margin-left: 830px;
-        }
-}

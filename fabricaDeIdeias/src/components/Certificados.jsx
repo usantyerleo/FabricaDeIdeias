@@ -22,14 +22,14 @@ function Certificados() {
     const [selectedId, setSelectedId] = useState(null);
 
     const certificados = [
-        { id: 'anprotec', title: 'Anprotec', img: anprotec, texto:"Gostaria de compartilhar que recebi uma nova certificação: ciclo 5 de Atendimento a Projetos de Planos de Inovação" ,imagem: certanprotec  },
-        { id: 'apexvrasil', title: 'Apex Brasil', img: apexvrasil, texto:"Gostaria de compartilhar que recebi uma nova certificação: evento Tach Woman" ,imagem: certassespro},
-        { id: 'assespro', title: 'Assespro', img: assespro, texto:"Gostaria de compartilhar que recebi uma nova certificação: Peogrma de qualificação para exportação" ,imagem: certapexbrasil},
-        { id: 'cesar', title: 'CESAR', img: cesar, texto:"Gostaria de compartilhar que recebi uma nova certificação: Trilha de Formação de Suape em Rede" ,imagem: certcesar},
-        { id: 'prefeitura', title: 'Prefeitura', img: prefeitura, texto:"Gostaria de compartilhar que recebi uma nova certificação: Hacker cidadão" ,imagem: certrecife },
-        { id: 'sebrae', title: 'Sebrae', img: sebrae,  texto:"Gostaria de compartilhar que recebi uma nova certificação: Seminário II mostra do empreendemorismo" ,imagem: certsebrae},
-        { id: 'ser', title: 'SER', img: ser, texto:"Gostaria de compartilhar que recebi uma nova certificação: Responsabilidade Social, Ambiental e  Governaça Corporativa" ,imagem: certser},
-        { id: 'unirec', title: 'UniRec', img: unirec, texto:"Gostaria de compartilhar que recebi uma nova certificação: Políticas Públicas para as mulheres" ,imagem: certunirec}, 
+        { id: 'anprotec', title: 'Anprotec', img: anprotec, texto: "Gostaria de compartilhar que recebi uma nova certificação: ciclo 5 de Atendimento a Projetos de Planos de Inovação", imagem: certanprotec },
+        { id: 'apexvrasil', title: 'Apex Brasil', img: apexvrasil, texto: "Gostaria de compartilhar que recebi uma nova certificação: evento Tach Woman", imagem: certapexbrasil },
+        { id: 'assespro', title: 'Assespro', img: assespro, texto: "Gostaria de compartilhar que recebi uma nova certificação: Programa de qualificação para exportação", imagem: certassespro },
+        { id: 'cesar', title: 'CESAR', img: cesar, texto: "Gostaria de compartilhar que recebi uma nova certificação: Trilha de Formação de Suape em Rede", imagem: certcesar },
+        { id: 'prefeitura', title: 'Prefeitura', img: prefeitura, texto: "Gostaria de compartilhar que recebi uma nova certificação: Hacker cidadão", imagem: certrecife },
+        { id: 'sebrae', title: 'Sebrae', img: sebrae, texto: "Gostaria de compartilhar que recebi uma nova certificação: Seminário II mostra do empreendedorismo", imagem: certsebrae },
+        { id: 'ser', title: 'SER', img: ser, texto: "Gostaria de compartilhar que recebi uma nova certificação: Responsabilidade Social, Ambiental e Governança Corporativa", imagem: certser },
+        { id: 'unirec', title: 'UniRec', img: unirec, texto: "Gostaria de compartilhar que recebi uma nova certificação: Políticas Públicas para as mulheres", imagem: certunirec },
     ];
 
     const selectedCertificado = certificados.find(cert => cert.id === selectedId);
