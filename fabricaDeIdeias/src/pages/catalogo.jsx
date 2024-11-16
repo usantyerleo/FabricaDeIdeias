@@ -19,7 +19,9 @@ function Catalogo() {
     { id: 5, nome: 'Boneca divertidamente: Medo', preco: 'R$ 85,00', imagem: medo },
     { id: 6, nome: 'Dedoche Chapeuzinho vermelho', preco: 'R$ 30,00', imagem: chapeuzinho },
     { id: 7, nome: 'Dedoche dos três porquinhos: ', preco: 'R$ 30,00', imagem: porquinhos },
-  ];
+  ];  
+
+  
 
   return (
     <>
@@ -72,5 +74,6 @@ function Catalogo() {
     </>
   );
 }
+
 
 export default Catalogo;

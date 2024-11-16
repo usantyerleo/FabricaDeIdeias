@@ -5,13 +5,12 @@
 }
 
 .meuscertificados h1 {
-  font-family: 'Poi Aeronaut', sans-serif;
   font-weight: 400;
   color: #5A1903;
-  margin-left: 144px;
-  font-size: 40px;
-  margin-top: 30px;
   margin-left: 9.4vw;
+  position: relative;
+  top: 2vh;
+  font-size: 40px;
 
   
 }
@@ -84,35 +83,7 @@
   color: #555;
 }
 
-@media (max-width: 768px) {
-  .meuscertificados h1 {
-    margin-left: 5%;
-    font-size: 2rem;
-  }
 
-  .imagens-certificados {
-    gap: 2rem;
-  }
-
-  .meuscertificados img {
-    width: 7rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .meuscertificados h1 {
-    font-size: 1.8rem;
-    margin-left: 5%;
-  }
-
-  .imagens-certificados {
-    gap: 1.5rem;
-  }
-
-  .meuscertificados img {
-    width: 5.5rem;
-  }
-}
 
 @keyframes slide {
   0% {

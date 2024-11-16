@@ -12,14 +12,15 @@
   justify-content: center;
 }
 
-.Events-Text {
-  font-size: 2rem;
+.Events-Text h1{
   font-family: 'Poi Aeronaut', sans-serif;
   font-weight: 400;
   color: #5A1903;
   position: relative;
   top: 10vh;
-  left: 5vw;
+  margin-left: 9.4vw;
+  font-size: 40px;
+
 }
 
 .inner {

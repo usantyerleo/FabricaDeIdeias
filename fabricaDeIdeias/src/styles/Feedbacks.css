@@ -10,9 +10,12 @@
     font-family: 'Poi Aeronaut', sans-serif;
     font-weight: 400;
     color: #1E2605;
-    margin-left: 9.4vw;
+    margin-left: 40px;
     font-size: 40px;
     padding-top: 5vw;
+    top: 10vh;
+    margin-left: 9.4vw;
+
 }
 
 #specificImage {
