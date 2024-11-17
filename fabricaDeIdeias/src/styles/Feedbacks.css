@@ -18,47 +18,38 @@
 
 }
 
+#boneca{
+    position: absolute;
+    bottom: 0; 
+    width: 25vw;
+}
+
 #specificImage {
     height: 37.7%;
     position: absolute;
     bottom: 0;
 }
-
-#boneco1 {
-    width: 13vw;
-    position: absolute;
-    top: 30.5vw;
-    margin-left: 5vw;
-    
-}
-
-#boneco2 {
-    width: 16vw;
-    height: 9vw;
-    margin-top: 13vw;
-    margin-left: 3vw;
-}
-
 .balao {
     background-color: #D1CEA9;
     border-radius: 15px;
     padding: 2vw;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     width: 28vw;
-    margin: 2vw;
     font-size: 20px;
     font-family: 'Poi Aeronaut', sans-serif;
     color: #706F5D;
 }
 
+
+
 #balao1 {
     margin-left: 17vw;
-    margin-top: -19vw;
+     margin-top: 3.5vw;
 }
 
 #balao2 {
     margin-left: 53vw;
-    margin-top: -14vw;
+    margin-top: -11vw;
 }
 
 #balao3 {
@@ -68,6 +59,6 @@
 
 #balao4 {
     margin-left: 62vw;
-    margin-top: -13vw;
+    margin-top: -10vw;
 }
 

@@ -66,11 +66,14 @@ function Colabore() {
             </div>
                 <div className="banner">
                 <img src={recycle} alt="Ícone de reciclagem" className="icon" />
-                <span>Faça parte da solução, recicle!</span>
+                <p>Faça parte da solução, recicle!</p>
             </div>
-            
-
+            <div className='camaleao'>
+            <img src={camaleao} alt="Ícone de reciclagem" className="icon" />
+            </div>
             <Footer />
+
+
         </>
     );
 }
