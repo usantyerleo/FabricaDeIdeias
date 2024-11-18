@@ -12,16 +12,16 @@ function Feedbacks() {
                 <img id="specificImage" src={textura} alt="Textura" />
                 <img id="boneca" src={boneca} alt="Boneco 1" />
                 <div id="balao1" className="balao">
-                    <p>“Lorem ipsum dolor sit amet consectetur. Vehicula mi mollis ut aenean diam. Urna tellus ”</p>
+                    <p>“Parabéns por mais uma vez corresponder minhas expectativas com esse belíssimo trabalho. Nossas contações de histórias cada dia mais divertidas. ”</p>
                 </div>
                 <div id="balao2" className="balao">
-                    <p>“Lorem ipsum dolor sit amet consectetur. Vehicula mi mollis ut aenean diam. Urna tellus”</p>
+                    <p>“Nosso Tigre Camarada ficou lindo demais!!! Parabéns mais uma vez pelo belíssimo trabalho.”</p>
                 </div>
                 <div id="balao3" className="balao">
-                    <p>“Lorem ipsum dolor sit amet consectetur. Vehicula mi mollis ut aenean diam. Urna tellus”</p>
+                    <p>“Parabéns pelo trabalho. Há muito tempo eu queria fazer a versão fantoche do Faguinho e vocês me surpreenderam em cada detalhe.”</p>
                 </div>
                 <div id="balao4" className="balao">
-                    <p>“Lorem ipsum dolor sit amet consectetur. Vehicula mi mollis ut aenean diam. Urna tellus ”</p>
+                    <p>“Quantas aprendizagens esses recursos proporcionam. Apaixonada! ❤️”</p>
                 </div>
             </div>
         </>

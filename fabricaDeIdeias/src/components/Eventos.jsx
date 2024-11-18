@@ -4,9 +4,13 @@ import evento1 from '../assets/evento1.png';
 import evento2 from '../assets/evento2.png';
 import evento3 from '../assets/evento3.png';
 import evento4 from '../assets/evento4.png';
+import evento6 from '../assets/evento6.png';
+import evento7 from '../assets/evento7.png';
+import evento8 from '../assets/evento8.png';
+import evento9 from '../assets/evento9.png';
 import '../styles/Eventos.css';
 
-const images = [evento1, evento2, evento3, evento4];
+const images = [evento1, evento2, evento3, evento4, evento6, evento7, evento8, evento9];
 
 function Eventos() {
   const carousel = useRef();

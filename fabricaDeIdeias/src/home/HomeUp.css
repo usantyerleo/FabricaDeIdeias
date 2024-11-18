@@ -22,7 +22,6 @@ html {
 
 }
 
-
 .container {
   display: flex;
   flex-direction: column;
@@ -32,8 +31,6 @@ html {
 
 
 }
-
-
 
 /* CSS do Container */
 
@@ -56,9 +53,19 @@ html {
 
 .rato {
   position: absolute;
-  left: 9vw;
-  bottom: -87vh;
+  left: 1vw;
+  bottom: -100vh;
   z-index: 1;
+  animation: rise-diagonal 2s ease-out 0.7s forwards;
+}
+
+@keyframes rise-diagonal {
+  0% {
+    transform: translate(0, 20px);
+  }
+  100% {
+    transform: translate(180px, -150px);
+  }
 }
 
 .maca1 {
@@ -68,6 +75,9 @@ html {
   width: 10vw;
   height: auto;
   z-index: 1;
+  animation: gentle-swing 5s cubic-bezier(0.36, 0, 0.64, 1) infinite;
+  transform-origin: top center;
+  animation-delay: 0s;
 }
 
 .maca2 {
@@ -77,6 +87,9 @@ html {
   width: 10vw;
   height: auto;
   z-index: 1;
+  animation: gentle-swing 5s cubic-bezier(0.36, 0, 0.64, 1) infinite;
+  transform-origin: top center;
+  animation-delay: 0.5s;
 }
 
 .maca3 {
@@ -86,28 +99,68 @@ html {
   width: 10vw;
   height: auto;
   z-index: 1;
+  animation: gentle-swing 5s cubic-bezier(0.36, 0, 0.64, 1) infinite;
+  transform-origin: top center;
+  animation-delay: 0.9s;
 }
 
+@keyframes gentle-swing {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 
 .jacare {
   position: absolute;
-  right: -53vh;
+  right: -90vh;
   bottom: -47vw;
   z-index: 1;
+  animation: slide-in 2s ease-out 0.5s forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-340px);
+  }
 }
 
 .porco {
   position: absolute;
-  top: 0vh;
+  top: -30vh;
   right: -25vw;
   z-index: 1;
+  animation: fall-in 2s ease-out 1s forwards;
+}
+
+@keyframes fall-in {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(270px);
+  }
 }
 
 .soldadinho {
   position: absolute;
   top: 34.5vh;
   left: 31vw;
-
   z-index: 1;
 }
 
