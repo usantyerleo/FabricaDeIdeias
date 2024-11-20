@@ -3,6 +3,7 @@ import Home from './pages/Home.jsx';
 import Sobremim from './pages/sobremim.jsx';
 import Colabore from './pages/colabore.jsx'
 import Catalogo from './pages/catalogo.jsx'
+import ErrorNF from './components/ErrorNF.jsx';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
   function App() {
@@ -13,6 +14,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
           <Route path="/Sobremim" element={<Sobremim />} />
           <Route path="/Colabore" element={<Colabore />} />
           <Route path="/Catalogo" element={<Catalogo />} />
+          <Route path="*" element={<ErrorNF />} />
         </Routes>
       </Router>
     );

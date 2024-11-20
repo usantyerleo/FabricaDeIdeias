@@ -1,0 +1,80 @@
+.errorbackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.apple1 {
+    position: absolute;
+    left: 4vw;
+    top: 8vh;
+    width: 10vw;
+    height: auto;
+    z-index: 1;
+    animation: gentle-swing 5s cubic-bezier(0.36, 0, 0.64, 1) infinite;
+    transform-origin: top center;
+    animation-delay: 0s;
+}
+
+.apple2 {
+    position: absolute;
+    left: 13vw;
+    top: 25vh;
+    width: 10vw;
+    height: auto;
+    z-index: 1;
+    animation: gentle-swing 5s cubic-bezier(0.36, 0, 0.64, 1) infinite;
+    transform-origin: top center;
+    animation-delay: 0.5s;
+}
+
+.apple3 {
+    position: absolute;
+    left: 0vw;
+    top: 35vh;
+    width: 10vw;
+    height: auto;
+    z-index: 1;
+    animation: gentle-swing 5s cubic-bezier(0.36, 0, 0.64, 1) infinite;
+    transform-origin: top center;
+    animation-delay: 0.9s;
+}
+
+.quatro {
+    position: absolute;
+    top: 13vh;
+    left: 50vw;
+    height: 43vh;
+    z-index: 1;
+    transform-origin: center bottom;
+    animation: fallAndRotate 4s ease-in-out forwards;
+}
+
+@keyframes fallAndRotate {
+    0% {
+      transform: translateY(0px) rotate(0deg); 
+    }
+    50% {
+      transform: translateY(135px) rotate(5deg); 
+    }
+    100% {
+      transform: translateY(135px) rotate(15deg); 
+    }
+  }
+
+
+
+.error-text {
+    position: absolute;
+    top: 90vh;
+    left: 45vw;
+    z-index: 1;
+    font-family: 'Poi Aeronaut', sans-serif;
+    color: #D8CDB9;
+}

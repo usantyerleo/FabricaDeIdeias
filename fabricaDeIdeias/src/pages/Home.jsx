@@ -12,12 +12,12 @@ import '../styles/Feedbacks.css';
 import '../styles/Ajude.css';
 import '../styles/Navbar.css';
 import Navbar from '../components/Navbar';
-
 import Footer from '../components/Footer';
 import Ajude from '../components/Ajude';
 import Feedbacks from '../components/Feedbacks';
 import Certificados from '../components/Certificados';
 import Eventos from '../components/Eventos';
+import ErrorNF from '../components/ErrorNF';
 
 function Home() {
   return (
