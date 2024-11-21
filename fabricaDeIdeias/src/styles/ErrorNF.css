@@ -61,10 +61,10 @@
       transform: translateY(0px) rotate(0deg); 
     }
     50% {
-      transform: translateY(135px) rotate(5deg); 
+      transform: translateY(125px) rotate(5deg); 
     }
     100% {
-      transform: translateY(135px) rotate(15deg); 
+      transform: translateY(125px) rotate(15deg); 
     }
   }
 

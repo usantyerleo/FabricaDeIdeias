@@ -117,7 +117,7 @@ function Catalogo() {
             )}           
             <p className="total">Total: R$ {calcularTotal()}</p>
             <a 
-              href="https://wa.me/"  
+              href="https://api.whatsapp.com/message/23Q3N4KIHR3WG1?autoload=1&app_absent=0"  
               target="_blank"
               rel="noopener noreferrer"
             >

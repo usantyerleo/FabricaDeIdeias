@@ -193,9 +193,11 @@ font-size: 2vw;
 margin-top: -2.6vw;
   }
 
-.camaleao img{
+.camaleao{
   width: 9vw;
   margin-left: 82vw;
-  margin-top: -1.1vw;
+  margin-top: -1.5vw;
+  position: relative;
+  bottom: -15px;
 
   }
