@@ -55,7 +55,7 @@ function Certificados() {
             <AnimatePresence>
                 {selectedId && (
                     <motion.div 
-                        className="modal" 
+                        className="modal2" 
                         initial={{ opacity: 0, y: -50 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -50 }}

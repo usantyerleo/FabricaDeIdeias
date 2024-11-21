@@ -9,7 +9,7 @@ import medo from '../assets/medo.png';
 import chapeuzinho from '../assets/chapeuzinho.png';
 import porquinhos from '../assets/porquinhos.png';
 import logo from '../assets/logo2.png';
-import cartIcon from '../assets/carrinho.png'; 
+import cartIcon from '../assets/sacola.png'; 
 import { Link } from 'react-router-dom';
 import catalogo from '../assets/catalogo.png';
 import removeIcon from '../assets/lixeira.png'; 
@@ -33,12 +33,10 @@ function Catalogo() {
     window.alert(`${produto.nome} foi adicionado ao carrinho!`); 
   };
 
-  // Função para remover um item do carrinho
   const removerDoCarrinho = (id) => {
     setCarrinho(carrinho.filter((item) => item.id !== id)); 
   };
 
-  // Função para calcular o total do carrinho
   const calcularTotal = () => {
     return carrinho.reduce((total, item) => total + item.preco, 0).toFixed(2);
   };
@@ -73,9 +71,9 @@ function Catalogo() {
           <input type='text' placeholder='Buscar' />
           <button id='pesquisa'>Ir</button>
           <img 
+          id='carro'
             src={cartIcon} 
             alt="Carrinho" 
-            className="cart-icon" 
             onClick={() => setMostrarModal(true)} 
           />
         </div>
@@ -86,7 +84,7 @@ function Catalogo() {
               <img src={produto.imagem} alt={produto.nome} className='produto-imagem' />
               <p className="produto-nome">{produto.nome}</p>
               <p className="produto-preco">R$ {produto.preco.toFixed(2)}</p>
-              <button className="addBotao" onClick={() => adicionarAoCarrinho(produto)}>Adicionar ao carrinho</button>
+              <button id='botao' className="addBotao" onClick={() => adicionarAoCarrinho(produto)}>Adicionar ao carrinho</button>
             </div>
           ))}
         </div>
@@ -95,6 +93,8 @@ function Catalogo() {
       {mostrarModal && (
         <div className="modal">
           <div className="modal-content">
+          <button id='botao2' onClick={() => setMostrarModal(false)}>x</button>
+
             <h3>Itens no Carrinho</h3>
             {carrinho.length === 0 ? (
               <p>Seu carrinho está vazio!</p>
@@ -105,6 +105,7 @@ function Catalogo() {
                     <img src={item.imagem} alt={item.nome} className="miniatura" />
                     {item.nome} - R$ {item.preco.toFixed(2)}
                     <img 
+                     id='lixo'
                       src={removeIcon} 
                       alt="Remover" 
                       className="remove-icon" 
@@ -113,11 +114,8 @@ function Catalogo() {
                   </li>
                 ))}
               </ul>
-            )}
+            )}           
             <p className="total">Total: R$ {calcularTotal()}</p>
-            <button onClick={() => setMostrarModal(false)}>Fechar</button>
-
-            {/* Botão que leva ao WhatsApp */}
             <a 
               href="https://wa.me/"  
               target="_blank"

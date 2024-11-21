@@ -21,7 +21,8 @@
 #boneca{
     position: absolute;
     bottom: 0; 
-    width: 25vw;
+    width: 29vw;
+    margin-left: -4vw;
 }
 
 #specificImage {
