@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Sobremim.css';
+import '../styles/SobreMim.css';
 import Footer from '../components/Footer';
 import Waves from '../assets/sm-waves.svg';
 import Perfil from '../assets/sm-danielle.png';
